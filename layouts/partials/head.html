@@ -1,0 +1,9 @@
+<head>
+	<meta charset="utf-8">
+	<title>Nimajason | {{ .Site.Title }}</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+	{{ $options := (dict "outputStyle" "compressed") }}
+	{{ $style := resources.Get "sass/main.scss" | resources.ToCSS $options }}
+	<link rel="stylesheet" href="{{ $style.Permalink }}">
+</head>
