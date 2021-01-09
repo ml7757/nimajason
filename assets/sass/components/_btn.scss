@@ -1,0 +1,36 @@
+.btn {
+	padding: 1rem;
+
+	&:link,
+	&:visited {
+		text-decoration: none;
+		color: #000;
+	}
+
+	&:hover,
+	&:active { color: #fff; }
+
+	&--pastel-green {
+
+		&:hover,
+		&:active { background-color: #12AD2B; }
+	}
+
+	&--munsell{
+
+		&:hover,
+		&:active { background-color: #EA0437; }
+	}
+
+	&--tufts {
+
+		&:hover,
+		&:active { background-color: #4189DD; }
+	}
+
+	&--mango {
+
+		&:hover,
+		&:active { background-color: #FFC726; }
+	}
+}
