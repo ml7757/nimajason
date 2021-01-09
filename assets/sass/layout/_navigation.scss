@@ -22,8 +22,8 @@
 		margin-top: 3rem;
 		display: flex;
 		justify-content: space-around;
-		border-top: 2px solid #000;
-		border-bottom: 2px solid #000;
+		border-top: var(--line);
+		border-bottom: var(--line);
 		padding: 1.15rem 0;
 	}
 }
