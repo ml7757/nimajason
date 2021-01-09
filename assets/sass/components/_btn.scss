@@ -11,24 +11,24 @@
 	&:hover,
 	&:active {
 		color: #fff;
-		background-color: #4189DD;
+		background-color: var(--color-primary);
 	}
 
-	&--pastel-green {
+	&--green {
 
 		&:hover,
-		&:active { background-color: #12AD2B; }
+		&:active { background-color: var(--color-pastel-green); }
 	}
 
-	&--munsell{
+	&--red{
 
 		&:hover,
-		&:active { background-color: #EA0437; }
+		&:active { background-color: var(--color-munsell); }
 	}
 
-	&--mango {
+	&--yellow {
 
 		&:hover,
-		&:active { background-color: #FFC726; }
+		&:active { background-color: var(--color-ripe-mango); }
 	}
 }
