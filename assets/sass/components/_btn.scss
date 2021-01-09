@@ -1,5 +1,6 @@
 .btn {
 	padding: 1rem;
+	transition: all 0.2s;
 
 	&:link,
 	&:visited {
@@ -8,7 +9,10 @@
 	}
 
 	&:hover,
-	&:active { color: #fff; }
+	&:active {
+		color: #fff;
+		background-color: #4189DD;
+	}
 
 	&--pastel-green {
 
@@ -20,12 +24,6 @@
 
 		&:hover,
 		&:active { background-color: #EA0437; }
-	}
-
-	&--tufts {
-
-		&:hover,
-		&:active { background-color: #4189DD; }
 	}
 
 	&--mango {
