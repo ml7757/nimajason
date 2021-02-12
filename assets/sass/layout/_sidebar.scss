@@ -1,0 +1,36 @@
+.sidebar {
+	color: #fff;
+	width: 45%;
+	min-height: 100vh;
+	background: -webkit-linear-gradient( #12AD2B, #FFC726, #EA0437, #4189DD);
+	background: -o-linear-gradient( #12AD2B, #FFC726, #EA0437, #4189DD);
+	background: linear-gradient( #12AD2B, #FFC726, #EA0437, #4189DD);
+
+	&__container {
+		width: 60%;
+		margin: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	&__logo { margin: 10rem 0 5rem 0; }
+
+	&__expression {
+		line-height: 4rem;
+		font-size: 2.5rem;
+		font-weight: 300;
+		list-style: none;
+		padding-left: 0;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+
+		&-offset { align-self: flex-end; }
+	}
+
+	&__phrase {
+
+
+	}
+}
