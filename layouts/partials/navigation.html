@@ -1,15 +1,8 @@
 <nav class="navigation">
-	<div class="navigation__home">
-		<img src="{{ .Site.Params.cloudinary_url }}/nimajason_logo-big_k8t9kw.png" alt="Nimajason logo" class="navigation__logo">
-		<div class="navigation__language">
-			{{- partial "svgs/uk_flag_svg.html" . -}}
-			{{- partial "svgs/eritrea_flag_svg.html" . -}}
-		</div>
-	</div>
 	<ul class="navigation__content">
-		<li class="navigation__item"><a href="#" class="btn btn--green">Poems</a></li>
-		<li class="navigation__item"><a href="#" class="btn btn--red">Tigrinya</a></li>
-		<li class="navigation__item"><a href="#" class="btn">Eritrea</a></li>
-		<li class="navigation__item"><a href="#" class="btn btn--yellow">About</a></li>
+		<li class="navigation__item"><a href="#" class="navigation__link">poems</a></li>
+		<li class="navigation__item"><a href="#" class="navigation__link">tigrinya</a></li>
+		<li class="navigation__item"><a href="#" class="navigation__link">eritrea</a></li>
+		<li class="navigation__item"><a href="#" class="navigation__link">about</a></li>
 	</ul>
 </nav>

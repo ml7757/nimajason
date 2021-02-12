@@ -1,29 +1,35 @@
 .navigation {
+	display: flex;
+	justify-content: space-between;
 
-	&__home {
-		display: flex;
-		justify-content: center;
-	}
-
-	&__logo {
-		display: flex;
-		margin: 0 auto;
-	}
-
+	&__content,
 	&__language {
-		flex: 0 0 7%;
-
+		list-style: none;
 		display: flex;
-		justify-content: space-between;
 	}
 
-	&__content {
-		list-style: none;
-		margin-top: 3rem;
-		display: flex;
-		justify-content: space-around;
-		border-top: var(--line);
-		border-bottom: var(--line);
-		padding: 1.15rem 0;
+	&__content { justify-content: space-around; }
+
+	&__item {
+		margin-top: 5rem;
+
+		&:not(:last-child) { margin-right: 3rem; }
+	}
+
+	&__link {
+		padding: 5rem 1rem 1rem 1rem;
+
+		&:link,
+		&:visited {
+			text-decoration: none;
+			color: #fff;
+			font-weight: 700;
+		}
+
+		&:hover,
+		&:active {
+			color: #333;
+			background-color: #fff;
+		}
 	}
 }
