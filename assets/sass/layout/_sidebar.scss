@@ -13,21 +13,9 @@
 
 	&__logo { margin: 10rem 0 5rem 0; }
 
-	&__expression {
+	&__title {
+		text-align: center;
 		line-height: 4rem;
-		font-size: 2.5rem;
-		font-weight: 300;
-		list-style: none;
-		padding-left: 0;
 		width: 100%;
-		display: flex;
-		flex-direction: column;
-
-		&-offset { align-self: flex-end; }
-	}
-
-	&__phrase {
-
-
 	}
 }

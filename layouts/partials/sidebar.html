@@ -4,10 +4,8 @@
 			{{- partial "navigation.html" . -}}
 
 			<img src="{{ .Site.Params.cloudinary_url }}/nimajason_logo_white_juarpi.png" alt="Nimajason logo" class="sidebar__logo">
-			<ul class="sidebar__expression">
-				<li class="sidebar__expression">Poems from my heart,</li>
-				<li class="sidebar__expression-offset">in the language of my people.</li>
-			</ul>
+
+			<h2 class="sidebar__title">{{ .Params.sidebar_title }}</h2>
 		</div>
 	</header>
 </div>
