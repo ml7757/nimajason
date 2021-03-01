@@ -5,7 +5,23 @@
 
 			<img src="{{ .Site.Params.cloudinary_url }}/nimajason_logo_white_juarpi.png" alt="Nimajason logo" class="sidebar__logo">
 
-			<h2 class="sidebar__title">{{ .Params.sidebar_title }}</h2>
+			<h2 class="sidebar__title">
+				{{ if .Params.sidebar_title}}
+					{{ .Params.sidebar_title }}
+				{{ else }}
+					{{ .Params.title_ti }}
+				{{ end }}
+			</h2>
+			<p class="sidebar__date">
+				{{ if .Params.date }}
+					Created: {{ .Date.Format .Site.Params.DateForm }}
+				{{ end }}
+			</p>
+			<p class="sidebar__location">
+				{{ if .Params.location }}
+					location: {{ .Params.location }}
+				{{ end }}
+			</p>
 		</div>
 	</header>
 </div>

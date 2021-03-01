@@ -14,8 +14,14 @@
 	&__logo { margin: 10rem 0 5rem 0; }
 
 	&__title {
+		width: 100%;
 		text-align: center;
 		line-height: 4rem;
-		width: 100%;
+		margin-bottom: 2rem;
 	}
+
+	&__date,
+	&__location { font-size: 1.8rem; }
+
+	&__date { margin-bottom: 1rem; }
 }
