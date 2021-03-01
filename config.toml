@@ -3,3 +3,4 @@ languageCode = "en-us"
 title = "Poems in Tigrinya"
 [params]
 	cloudinary_url = "https://res.cloudinary.com/ml7757/image/upload/nimajason"
+	DateForm = "2.01.2006"

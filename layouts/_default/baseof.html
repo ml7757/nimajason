@@ -2,11 +2,11 @@
 <html lang="en" dir="ltr">
 	{{- partial "head.html" . -}}
 	<body>
-		<div class="container-main">
-			<main>
-				{{ partial "sidebar.html" . }}
+		{{ partial "sidebar.html" . }}
+		<main class="main">
+			<div class="main__content">
 				{{- block "main" . }}{{- end }}
-			</main>
-		</div>
+			</div>
+		</main>
 	</body>
 </html>
