@@ -1,5 +1,6 @@
 ---
 colour: "#12AD2B"
+accent: "#074912"
 title: "{{ .Name | humanize }}"
 title_ti:
 slug:	"{{ .Name | urlize }}"

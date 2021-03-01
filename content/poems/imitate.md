@@ -1,5 +1,6 @@
 ---
 colour: "#12AD2B"
+accent: "#074912"
 title: "Imitate"
 title_ti: "ምሰሊ!"
 slug:	"imitate"
