@@ -10,14 +10,10 @@
 
 	&__content { justify-content: space-around; }
 
-	&__item {
-		padding: 5rem 0 2rem 0;
-
-		&:not(:last-child) { margin-right: 3rem; }
-	}
+	&__item { padding: 5rem 0 2rem 0; }
 
 	&__link {
-		padding: 5rem 1rem 2rem 1rem;
+		padding: 5rem 2rem 2rem 2rem;
 
 		&:link,
 		&:visited {
