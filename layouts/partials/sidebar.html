@@ -3,7 +3,7 @@
 		<div class="sidebar__container">
 			{{- partial "navigation.html" . -}}
 
-			<img src="{{ .Site.Params.cloudinary_url }}/nimajason_logo_white_juarpi.png" alt="Nimajason logo" class="sidebar__logo">
+			{{- partial "svgs/nimajason_logo.html" . -}}
 
 			<h2 class="sidebar__title">
 				{{ if .Params.sidebar_title}}
