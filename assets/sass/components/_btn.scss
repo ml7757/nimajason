@@ -17,7 +17,11 @@
 	&--green {
 
 		&:hover,
-		&:active { background-color: var(--color-pastel-green); }
+		&:active {
+			background-color: var(--color-pastel-green);
+
+			.btn__svg { fill: #FFFFFF; }
+		}
 	}
 
 	&--red{
@@ -31,4 +35,6 @@
 		&:hover,
 		&:active { background-color: var(--color-ripe-mango); }
 	}
+
+	&__svg { margin-left: 1rem; }
 }
