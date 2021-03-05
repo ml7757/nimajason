@@ -1,0 +1,42 @@
+.poem {
+
+	&__card {
+		background-color: #f4f4f4;
+		padding: 3rem 2rem 2rem 2rem;
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__title { font-size: 4rem; }
+
+	&__line {
+		border: 2px solid #12AD2B;
+		margin: 4rem 0 2rem 0;
+	}
+
+	&__group {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__link-group {
+		display: flex;
+		align-items: center;
+	}
+
+	&__container {
+		text-align: center;
+
+		h1 {
+			font-size: 4rem;
+			margin-bottom: 5rem;
+		}
+
+		p {
+			font-size: 2rem;
+			margin-bottom: 3rem;
+			font-weight: 500;
+		}
+	}
+}

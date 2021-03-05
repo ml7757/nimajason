@@ -2,9 +2,6 @@
 	color: #fff;
 	width: 45%;
 	min-height: 100vh;
-	background: -webkit-linear-gradient( #12AD2B, #FFC726, #EA0437, #4189DD);
-	background: -o-linear-gradient( #12AD2B, #FFC726, #EA0437, #4189DD);
-	background: linear-gradient( #12AD2B, #FFC726, #EA0437, #4189DD);
 
 	&__container {
 		width: 60%;
@@ -16,21 +13,15 @@
 
 	&__logo { margin: 10rem 0 5rem 0; }
 
-	&__expression {
-		line-height: 4rem;
-		font-size: 2.5rem;
-		font-weight: 300;
-		list-style: none;
-		padding-left: 0;
+	&__title {
 		width: 100%;
-		display: flex;
-		flex-direction: column;
-
-		&-offset { align-self: flex-end; }
+		text-align: center;
+		line-height: 4rem;
+		margin-bottom: 2rem;
 	}
 
-	&__phrase {
+	&__date,
+	&__location { font-size: 1.8rem; }
 
-
-	}
+	&__date { margin-bottom: 1rem; }
 }
