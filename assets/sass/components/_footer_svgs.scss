@@ -1,0 +1,22 @@
+.footer__svgs {
+	display: flex;
+	justify-content: center;
+	margin: 3rem 0;
+
+	&-icon {
+		stroke-width: 1;
+		stroke: currentColor;
+		fill: none;
+	}
+
+	&-link {
+
+		&:not(:last-child) { margin-right: 3rem; }
+
+		&:link,
+		&:visited {
+			text-decoration: none;
+			color: #fff;
+		}
+	}
+}
