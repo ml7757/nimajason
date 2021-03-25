@@ -2,5 +2,39 @@
 	position: fixed;
 	bottom: 0;
 	left: 0;
+	padding-top: 3rem;
 	width: 45%;
+	color: #fff;
+
+	&__container {
+		width: 60%;
+		margin: auto;
+		border-top: 2px solid #fff;
+		margin-bottom: 3rem;
+		align-items: center;
+	}
+
+	&__menu {
+		list-style: none;
+		padding-left: 0;
+		display: flex;
+		justify-content: space-between;
+		margin-top: 3rem;
+	}
+
+	&__item { text-transform: uppercase; }
+
+	&__link {
+
+		&:link,
+		&:visited {
+			text-decoration: none;
+			color: #fff;
+		}
+	}
+
+	&__copyright {
+		display: flex;
+		justify-content: center;
+	}
 }

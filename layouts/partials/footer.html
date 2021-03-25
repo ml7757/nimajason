@@ -1,8 +1,14 @@
 <footer class="footer">
-	<ul class="footer__menu">
-		<li><a href="#">nimajason</a></li>
-		<li><a href="#">poems</a></li>
-		<li><a href="#">tigrinya</a></li>
-		<li><a href="#">about</a></li>
-	</ul>
+	<div class="div footer__container">
+		<ul class="footer__menu">
+			<li class="footer__item"><a href="/" class="footer__link">nimajason</a></li>
+			<li class="footer__item"><a href="/poems" class="footer__link">poems</a></li>
+			<li class="footer__item"><a href="/tigrinya" class="footer__link">tigrinya</a></li>
+			<li class="footer__item"><a href="/about" class="footer__link">about</a></li>
+		</ul>
+		{{- partial "svgs/footer_svg.html" . -}}
+		<p class="footer__copyright">
+			&#169; Nimajason. All Rights Reserved.
+		</p>
+	</div>
 </footer>
