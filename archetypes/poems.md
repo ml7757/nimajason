@@ -1,6 +1,7 @@
 ---
 colour: "#12AD2B"
-accent: "#074912"
+accent: "#EA0437"
+triangle: "#4189DD"
 logo: "#FFC726"
 title: "{{ .Name | humanize }}"
 title_ti:
