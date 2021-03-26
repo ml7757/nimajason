@@ -14,7 +14,7 @@
 			</h2>
 			<p class="sidebar__date">
 				{{ if .Params.date }}
-					Created: {{ .Date.Format "2.01.2006 at 15:04 MST" }}
+					Created: {{ .Date.Format .Site.Params.DateForm }}
 				{{ end }}
 			</p>
 			<p class="sidebar__location">
