@@ -8,3 +8,5 @@ sidebar_title: "Poems and stories in the language of my people."
 ---
 
 Hello. I'm Awet. And welcome to my passion project. Both through my poems and stories, I wish to share with you the love I have for Tigrinya, the language of my people, any my homeland of Eritrea. Please enjoy and thanks for stopping by.
+
+{{< divider >}}
