@@ -10,3 +10,13 @@ sidebar_title: "Poems and stories in the language of my people."
 Hello. I'm Awet. And welcome to my passion project. Both through my poems and stories, I wish to share with you the love I have for Tigrinya, the language of my people, any my homeland of Eritrea. Please enjoy and thanks for stopping by.
 
 {{< divider >}}
+
+## My latest poems
+
+{{< divider >}}
+
+## Videos about Tigrinya
+
+If you are interested in learning more about the Tigrinya language, I also make videos covering various aspects of the language, like in the example video below. Please visit my [Youtube channel](https://www.youtube.com/channel/UCSpOXmKoQdtzjKzcyeabK3A) for more videos!
+
+{{< youtube DUy9i3Poq8w >}}

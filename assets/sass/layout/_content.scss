@@ -5,5 +5,13 @@
 		line-height: 3rem;
 
 		h2 { margin-bottom: 3rem; }
+
+		a {
+
+			&:link,
+			&:visited { color: var(--color-primary); }
+		}
+
+		p { margin-bottom: 3rem; }
 	}
 }
