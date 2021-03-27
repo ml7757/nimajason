@@ -22,3 +22,7 @@ Hello. I'm Awet. And welcome to my passion project. Through my poems and stories
 If you are interested in learning more about the Tigrinya language, I also make videos covering various aspects of the language, like in the example video below. Please visit my {{< target link="https://www.youtube.com/channel/UCSpOXmKoQdtzjKzcyeabK3A" text="Youtube channel">}} for more videos!
 
 {{< youtube DUy9i3Poq8w >}}
+
+{{< divider >}}
+
+## Stories of Eritrea
