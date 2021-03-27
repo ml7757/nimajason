@@ -3,14 +3,14 @@ colour: "#12AD2B"
 accent: "#EA0437"
 triangle: "#4189DD"
 logo: "#FFC726"
-title: "ምሰሊ!"
-slug:	"ምሰሊ!"
+title: ምሰሊ!
+slug: ምሰሊ!
 author: ብ ዓወት ኢያሱ
-date: 2021-02-26T08:41:56+01:00
-location: "Bern"
+date: 2021-02-26T08:41:56.000+01:00
+location: Bern, Switzerland
 draft: true
----
 
+---
 ክትመስሊ!
 
 ብመልክዕ ስራሕ ተመሳሰሊ
