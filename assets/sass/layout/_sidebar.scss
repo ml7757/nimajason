@@ -3,6 +3,11 @@
 	width: 45%;
 	min-height: 100vh;
 
+	header {
+		position: sticky;
+		top: 0;
+	}
+
 	&__container {
 		width: 60%;
 		margin: auto;
