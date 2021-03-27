@@ -8,5 +8,6 @@ slug:	"{{ .Name | urlize }}"
 author: ብ ዓወት ኢያሱ
 date: {{ .Date }}
 location:
+poem: true
 draft: true
 ---

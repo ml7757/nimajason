@@ -1,0 +1,14 @@
+{{ $poem := where .Site.Pages ".Params.poem" true }}
+{{ range first 9 $poem.ByDate.Reverse }}
+	<div class="poem__card">
+		<h1 class="poem__title">{{ .Params.title }}</h1>
+		<div class="poem__line"></div>
+		<div class="poem__group">
+			<div class="poem__date">{{ .Date.Format .Site.Params.DateForm }}</div>
+			<a href="{{ .RelPermalink }}" class="btn btn--green">
+				Read
+				{{- partial "svgs/chevron_right.html" . -}}
+			</a>
+		</div>
+	</div>
+{{ end }}
