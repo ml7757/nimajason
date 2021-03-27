@@ -17,6 +17,6 @@ Hello. I'm Awet. And welcome to my passion project. Both through my poems and st
 
 ## Videos about Tigrinya
 
-If you are interested in learning more about the Tigrinya language, I also make videos covering various aspects of the language, like in the example video below. Please visit my [Youtube channel](https://www.youtube.com/channel/UCSpOXmKoQdtzjKzcyeabK3A) for more videos!
+If you are interested in learning more about the Tigrinya language, I also make videos covering various aspects of the language, like in the example video below. Please visit my {{< target link="https://www.youtube.com/channel/UCSpOXmKoQdtzjKzcyeabK3A" text="Youtube channel">}} for more videos!
 
 {{< youtube DUy9i3Poq8w >}}
