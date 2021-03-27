@@ -1,10 +1,10 @@
 ---
 colour: "#12AD2B"
-accent: "#074912"
+accent: "#EA0437"
+triangle: "#4189DD"
 logo: "#FFC726"
-title: "Imitate"
-title_ti: "ምሰሊ!"
-slug:	"imitate"
+title: "ምሰሊ!"
+slug:	"ምሰሊ!"
 author: ብ ዓወት ኢያሱ
 date: 2021-02-26T08:41:56+01:00
 location: "Bern"
