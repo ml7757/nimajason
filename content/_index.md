@@ -7,17 +7,19 @@ logo: "#FFC726"
 sidebar_title: "Poems and stories in the language of my people."
 ---
 
-Hello. I'm Awet. And welcome to my passion project. Through my poems and stories, I wish to share with you the love I have for Tigrinya, the language of my people, any my homeland of Eritrea. Please enjoy and thanks for stopping by.
+Hello. I'm Awet. And welcome to my passion project. Through my poems and stories, I wish to share with you the love I have for Tigrinya, the language of my people, and my homeland of Eritrea. Please enjoy and thanks for stopping by.
 
 {{< divider >}}
 
 ## My latest poems
 
-{{< list >}}
+{{< item-list color="#4189DD">}}
 
 {{< divider >}}
 
 {{< donation  title="Fan of my work...?" text="Show your love by supporting my work and the language of Tigrinya." color="#ffffff" background="heart-blue_tjbkge.png" >}}
+
+{{< divider >}}
 
 ## Videos about Tigrinya
 
