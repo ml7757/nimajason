@@ -1,0 +1,15 @@
+.content {
+
+	&__container {
+		text-align: justify;
+
+		h2 {
+			font-family: 'Archivo Black', sans-serif;
+			text-transform: uppercase;
+			margin-bottom: 3rem;
+
+		}
+
+		p { margin-bottom: 3rem; }
+	}
+}
