@@ -1,10 +1,13 @@
 .donation {
 
 	&__container {
-		background-position: center;
+		background-position: left;
 		padding: 3rem;
 		margin: 5rem 0;
 	}
+
+	&__title,
+	&__text { margin-bottom: 3rem; }
 
 	&__text { font-weight: 500; }
 }
