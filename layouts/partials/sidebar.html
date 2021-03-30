@@ -22,6 +22,11 @@
 					location: {{ .Params.location }}
 				{{ end }}
 			</p>
+			<p class="sidebar__author">
+				{{ if .Params.author }}
+					By: {{ .Params.author }}
+				{{ end }}
+			</p>
 		</div>
 	</header>
 </div>
