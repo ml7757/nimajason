@@ -8,11 +8,14 @@
 		margin-bottom: 4rem;
 	}
 
-	&__title { font-size: 4rem; }
+	&__title {
+		font-size: 3rem;
+		margin-bottom: 1rem;
+	}
 
 	&__line {
 		border: 2px solid;
-		margin: 4rem 0 2rem 0;
+		margin: 2rem 0;
 	}
 
 	&__group {
@@ -21,9 +24,9 @@
 		align-items: center;
 	}
 
-	&__link-group {
+	&__btn {
 		display: flex;
-		align-items: center;
+		justify-content: flex-end;
 	}
 
 	&__container {
