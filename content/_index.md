@@ -15,6 +15,8 @@ Hello. I'm Awet. And welcome to my passion project. Through my poems and stories
 
 {{< item-list color="#4189DD">}}
 
+{{< btn href="/poems" text="See all" color="#4189DD" >}}
+
 {{< divider >}}
 
 {{< donation  title="Fan of my work...?" text="Show your love by supporting my work and the language of Tigrinya." color="#ffffff" background="heart-blue_tjbkge.png" >}}

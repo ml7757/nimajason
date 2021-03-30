@@ -9,4 +9,13 @@
 	}
 
 	&__svg { margin-left: 1rem; }
+
+	&__sc {
+		background-color: #f4f4f4;
+		padding: 1.5rem;
+		font-weight: 500;
+
+		&:link,
+		&:visited { text-decoration: none; }
+	}
 }
