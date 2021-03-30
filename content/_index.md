@@ -17,6 +17,8 @@ Hello. I'm Awet. And welcome to my passion project. Through my poems and stories
 
 {{< divider >}}
 
+{{< donation  title="Fan of my work...?" text="Show your love by supporting my work and the language of Tigrinya." color="#ffffff" background="heart-blue_tjbkge.png" >}}
+
 ## Videos about Tigrinya
 
 If you are interested in learning more about the Tigrinya language, I also make videos covering various aspects of the language, like in the example video below. Please visit my {{< target link="https://www.youtube.com/channel/UCSpOXmKoQdtzjKzcyeabK3A" text="Youtube channel">}} for more videos!
