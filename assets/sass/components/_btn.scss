@@ -1,39 +1,11 @@
 .btn {
-	padding: 1rem;
-	transition: all 0.2s;
+	padding: .5rem 1rem;
+	border: 1px solid;
 
 	&:link,
 	&:visited {
 		text-decoration: none;
 		color: #000;
-	}
-
-	&:hover,
-	&:active {
-		color: #fff;
-		background-color: var(--color-primary);
-	}
-
-	&--green {
-
-		&:hover,
-		&:active {
-			background-color: var(--color-primary);
-
-			.btn__svg { fill: #FFFFFF; }
-		}
-	}
-
-	&--red{
-
-		&:hover,
-		&:active { background-color: var(--color-munsell); }
-	}
-
-	&--yellow {
-
-		&:hover,
-		&:active { background-color: var(--color-ripe-mango); }
 	}
 
 	&__svg { margin-left: 1rem; }
