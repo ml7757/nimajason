@@ -1,6 +1,6 @@
 {{ define "main" }}
 	{{ range .Pages}}
-		{{ .Scratch.Set "type" "poem" }}
+		{{ .Scratch.Set "type" "article" }}
 		{{ partial "card.html" . }}
 	{{ end }}
 {{ end }}

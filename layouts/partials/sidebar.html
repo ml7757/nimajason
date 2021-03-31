@@ -12,14 +12,19 @@
 					{{ .Params.title }}
 				{{ end }}
 			</h2>
-			<p class="sidebar__date">
+			<p class="sidebar__details">
 				{{ if .Params.date }}
-					Created: {{ .Date.Format .Site.Params.DateForm }}
+					<span class="sidebar__bold">Created:</span> {{ .Date.Format .Site.Params.DateForm }}
 				{{ end }}
 			</p>
-			<p class="sidebar__location">
+			<p class="sidebar__details">
 				{{ if .Params.location }}
-					location: {{ .Params.location }}
+					<span class="sidebar__bold">location:</span> {{ .Params.location }}
+				{{ end }}
+			</p>
+			<p class="sidebar__details">
+				{{ if .Params.author }}
+					<span class="sidebar__bold">By:</span> {{ .Params.author }}
 				{{ end }}
 			</p>
 		</div>

@@ -13,7 +13,7 @@ Hello. I'm Awet. And welcome to my passion project. Through my poems and stories
 
 ## My latest poems
 
-{{< item-list color="#4189DD">}}
+{{< item-list color="#4189DD" type="poem">}}
 
 {{< btn href="/poems" text="See all" color="#4189DD" >}}
 
@@ -33,4 +33,6 @@ If you are interested in learning more about the Tigrinya language, I also make 
 
 ## Stories of Eritrea
 
-Coming soon...
+{{< item-list color="#4189DD" type="article" >}}
+
+{{< btn href="/articles" text="See all" color="#4189DD" >}}

@@ -27,8 +27,11 @@
 		margin-bottom: 2rem;
 	}
 
-	&__date,
-	&__location { font-size: 1.8rem; }
+	&__details {
+		font-size: 1.8rem;
 
-	&__date { margin-bottom: 1rem; }
+		&:not(:last-child) { margin-bottom: 1rem; }
+	}
+
+	&__bold { font-weight: 500; }
 }

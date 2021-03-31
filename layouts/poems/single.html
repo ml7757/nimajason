@@ -3,4 +3,7 @@
 		<h1>{{ .Params.title }}</h1>
 		<p>{{ .Content }}</p>
 	</div>
+	<div class="divider"></div>
+
+	{{ partial "donation.html" (dict "title" "Fan of my work...?" "text" "Show your love by supporting my work and the language of Tigrinya." "color" "#ffffff" "background" "heart-green_b7vt03.png") . }}
 {{ end }}
