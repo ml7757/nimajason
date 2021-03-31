@@ -7,7 +7,7 @@ title: "Flag of eritrea"
 slug:	"flag-of-eritrea"
 author: ብ ዓወት ኢያሱ
 date: 2021-03-30T16:31:16+02:00
-location:
+location: Bern, Switzerland
 poem: false
 draft: true
 ---
