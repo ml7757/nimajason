@@ -1,34 +1,5 @@
 .poem {
 
-	&__card {
-		background-color: #f4f4f4;
-		padding: 3rem 2rem 2rem 2rem;
-		display: flex;
-		flex-direction: column;
-		margin-bottom: 4rem;
-	}
-
-	&__title {
-		font-size: 3rem;
-		margin-bottom: 1rem;
-	}
-
-	&__line {
-		border: 2px solid;
-		margin: 2rem 0;
-	}
-
-	&__group {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	}
-
-	&__btn {
-		display: flex;
-		justify-content: flex-end;
-	}
-
 	&__container {
 		text-align: center;
 
