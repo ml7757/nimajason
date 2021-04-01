@@ -25,7 +25,7 @@ layout: "about"
 
 {{< divider >}}
 
-## Ways to get involved
+## ኣብዚ ኢድካ እትህልወሉ መገድታት
 
 {{< donation  title="ናይ ስራሐይ ደጋፊ...?" text="ንዕዮይን ቋንቋ ጢግሪንያን ብምድጋፍ ፍቕርኻ ኣርኢ ።" color="#ffffff" background="heart-yellow_d2afzw.png" >}}
 

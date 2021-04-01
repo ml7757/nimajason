@@ -5,4 +5,11 @@
 		<li class="navigation__item"><a href="/articles" class="navigation__link navigation__link--{{ .Params.theme }}">eritrea</a></li>
 		<li class="navigation__item"><a href="/about" class="navigation__link navigation__link--{{ .Params.theme }}">about</a></li>
 	</ul>
+	{{ if .IsTranslated }}
+		<nav class="LangNav">
+			{{ range .Translations }}
+				<a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+			{{ end}}
+		</nav>
+	{{ end }}
 </nav>
