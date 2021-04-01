@@ -5,9 +5,12 @@
 
 	&-icon {
 		stroke-width: 1;
-		stroke: currentColor;
 		fill: none;
 	}
+
+	&--dark { stroke: #000000; }
+
+	&--light { stroke: currentColor; }
 
 	&-link {
 

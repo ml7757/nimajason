@@ -1,7 +1,10 @@
 .sidebar {
-	color: #fff;
 	width: 45%;
 	min-height: 100vh;
+
+	&--dark { color: #000000; }
+
+	&--light { color: #ffffff; }
 
 	header {
 		position: sticky;

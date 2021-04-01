@@ -1,7 +1,7 @@
 ---
-colour: "#EA0437"
-accent: "#4189DD"
-triangle: "#12AD2B"
+accent_1: "#EA0437"
+accent_2: "#4189DD"
+accent_3: "#12AD2B"
 logo: "#FFC726"
 title: "Flag of eritrea"
 slug:	"flag-of-eritrea"
@@ -9,6 +9,7 @@ author: ብ ዓወት ኢያሱ
 date: 2021-03-30T16:31:16+02:00
 location: Bern, Switzerland
 poem: false
+theme: "light"
 draft: true
 ---
 

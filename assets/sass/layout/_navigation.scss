@@ -22,10 +22,28 @@
 			font-weight: 700;
 		}
 
-		&:hover,
-		&:active {
-			color: #333;
-			background-color: #fff;
+		&--dark {
+
+			&:link,
+			&:visited { color: #000000; }
+
+			&:hover,
+			&:active {
+				color: #ffffff;
+				background-color: #000000;
+			}
+		}
+
+		&--light {
+
+			&:link,
+			&:visited { color: #ffffff; }
+
+			&:hover,
+			&:active {
+				color: #000000;
+				background-color: #ffffff;
+			}
 		}
 	}
 }
