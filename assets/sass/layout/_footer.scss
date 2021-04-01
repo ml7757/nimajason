@@ -4,7 +4,10 @@
 	left: 0;
 	padding-top: 3rem;
 	width: 45%;
-	color: #fff;
+
+	&--light { color: #fff; }
+
+	&--dark { color: #000; }
 
 	&__container {
 		width: 60%;
@@ -29,7 +32,7 @@
 		&:link,
 		&:visited {
 			text-decoration: none;
-			color: #fff;
+			color: inherit;
 		}
 	}
 

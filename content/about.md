@@ -5,6 +5,7 @@ accent: "#000000"
 triangle: "#000000"
 logo: "#000000"
 sidebar_title: "About me"
+theme: "dark"
 layout: "about"
 ---
 

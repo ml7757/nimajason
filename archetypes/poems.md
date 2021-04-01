@@ -9,5 +9,6 @@ author: ብ ዓወት ኢያሱ
 date: {{ .Date }}
 location:
 poem: true
+theme: "light"
 draft: true
 ---

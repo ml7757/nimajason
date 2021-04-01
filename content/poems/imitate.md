@@ -9,6 +9,7 @@ author: ብ ዓወት ኢያሱ
 date: 2021-02-26T08:41:56.000+01:00
 location: Bern, Switzerland
 poem: true
+theme: "light"
 draft: true
 
 ---
