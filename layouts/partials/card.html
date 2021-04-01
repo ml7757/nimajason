@@ -2,14 +2,14 @@
 <div class="card">
 	<h1 class="card__title">{{ .Params.title }}</h1>
 	<div class="card__date">{{ .Date.Format .Site.Params.DateForm }}</div>
-	<div class="card__line" style="border-color: {{ .Params.colour }};"></div>
+	<div class="card__line" style="border-color: {{ .Params.accent_1 }};"></div>
 	{{ if eq $type "article" }}
 		<div class="card__teaser">
 			{{ .Summary }}
 		</div>
 	{{ end }}
 	<div class="card__btn">
-		<a href="{{ .RelPermalink }}" class="btn" style="border-color: {{ .Params.colour }};">
+		<a href="{{ .RelPermalink }}" class="btn" style="border-color: {{ .Params.accent_1 }};">
 			Read
 			{{- partial "svgs/chevron_right.html" . -}}
 		</a>

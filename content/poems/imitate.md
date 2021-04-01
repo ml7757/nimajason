@@ -1,7 +1,7 @@
 ---
-colour: "#12AD2B"
-accent: "#EA0437"
-triangle: "#4189DD"
+accent_1: "#12AD2B"
+accent_2: "#EA0437"
+accent_3: "#4189DD"
 logo: "#FFC726"
 title: ምሰሊ!
 slug: ምሰሊ!
