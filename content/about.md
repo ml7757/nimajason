@@ -27,3 +27,5 @@ in the Tigrinya language. Over time however, it is my intention to translate thi
 ## Ways to get involved
 
 {{< donation  title="Fan of my work...?" text="Show your love by supporting my work and the language of Tigrinya." color="#ffffff" background="heart-yellow_d2afzw.png" >}}
+
+{{< petition text="Help the Tigrinya community get the Tigrinya language on Google Translate" >}}

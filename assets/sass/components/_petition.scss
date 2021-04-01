@@ -1,0 +1,12 @@
+.petition {
+
+	&__container {
+		background-color: #f4f4f4;
+		padding: 3rem;
+		margin: 5rem 0;
+	}
+
+	&__logo, &__text { margin-bottom: 3rem; }
+
+	&__text { font-family: 'Archivo Black', sans-serif; }
+}
