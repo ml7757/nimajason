@@ -1,9 +1,9 @@
-<div class="sidebar" style="background-color:{{ .Params.colour }};">
+<div class="sidebar sidebar--{{ .Params.theme }}" style="background-color:{{ .Params.colour }};">
 	<header>
 		<div class="sidebar__container">
-			{{- partial "navigation.html" . -}}
+			{{ partial "navigation.html" . }}
 
-			{{- partial "svgs/nimajason_logo.html" . -}}
+			{{ partial "svgs/nimajason_logo.html" . }}
 
 			<h2 class="sidebar__title">
 				{{ if .Params.sidebar_title}}
