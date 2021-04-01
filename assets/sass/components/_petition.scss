@@ -9,4 +9,9 @@
 	&__logo, &__text { margin-bottom: 3rem; }
 
 	&__text { font-family: 'Archivo Black', sans-serif; }
+
+	&__btn {
+		display: flex;
+		justify-content: flex-start;
+	}
 }
