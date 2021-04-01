@@ -8,9 +8,11 @@
 				<li class="footer__item"><a href="/about" class="footer__link">about</a></li>
 			</ul>
 			{{ partial "svgs/footer_svg.html" . }}
-			<p class="footer__copyright">
-				&#169; {{ now.Format "2006"}} Nimajason. All Rights Reserved.
-			</p>
+			<div class="footer__copyright">
+				<span>&#169; {{ now.Format "2006"}} Nimajason. All Rights Reserved</span>
+				<span class="footer__pipe">|</span>
+				<span><a href="/admin" class="footer__link">Admin</a></span>
+			</div>
 		</div>
 	</footer>
 {{ end }}
