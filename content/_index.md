@@ -1,8 +1,8 @@
 ---
 title: "Poems in Tigrinya."
-colour: "#4189DD"
-accent: "#12AD2B"
-triangle: "#EA0437"
+accent_1: "#4189DD"
+accent_2: "#12AD2B"
+accent_3: "#EA0437"
 logo: "#FFC726"
 sidebar_title: "Poems and stories in the language of my people."
 theme: "light"

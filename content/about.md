@@ -1,8 +1,8 @@
 ---
 title: "About"
-colour: "#FFC726"
-accent: "#ffffff"
-triangle: "#000000"
+accent_1: "#FFC726"
+accent_2: "#ffffff"
+accent_3: "#000000"
 logo: "#000000"
 sidebar_title: "About me"
 theme: "dark"
