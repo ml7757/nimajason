@@ -14,7 +14,7 @@ theme: "light"
 
 {{< divider >}}
 
-## My latest poems
+## እዋናዊ ግጥምታተይ
 
 {{< item-list color="#4189DD" type="poem">}}
 
@@ -28,7 +28,7 @@ theme: "light"
 
 {{< divider >}}
 
-## Stories of Eritrea
+## ታሪኽ ኤርትረ
 
 {{< item-list color="#4189DD" type="article" >}}
 
@@ -36,7 +36,7 @@ theme: "light"
 
 {{< divider >}}
 
-## Videos about Tigrinya
+## ብዛዕባ ጢግሪንያ ዚገልጽ ቪድዮታት
 
 ብዛዕባ ቛንቋ ጢግሪንያ ዝያዳ ኽትመሃር እንተ ደሊኻ ከምታ ኣብ ታሕቲ ዘለኻ ኣብነት ዝዀነት ቪድዮ ዝኣመሰለ እተፈላለየ መዳያት እቲ ቛንቋ ዚሽፍን ቪድዮታት አዳሉ እየ። በጃኻ በጽሓኒ {{< target link="https://www.youtube.com/channel/UCSpOXmKoQdtzjKzcyeabK3A" text="Youtube channel">}} ዝያዳ ቪድዮታት ንምርካብ!
 
