@@ -22,3 +22,5 @@
   translation: "Fan of my work...?"
 - id: donation_text
   translation: "Show your love by supporting my work and the language of Tigrinya"
+- id: petition_btn
+  translation: "Sign Petition"
