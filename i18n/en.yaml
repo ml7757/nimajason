@@ -6,3 +6,7 @@
   translation: "eritrea"
 - id: nav_about
   translation: "about"
+- id: footer_rights
+  translation: "Nimajason. All Rights Reserved"
+- id: footer_admin
+  translation: "Admin"
