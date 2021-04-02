@@ -5,7 +5,7 @@
 	<meta property="og:type"          content="article" />
 	<meta property="og:title"         content="{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}" />
 	<meta property="og:description"   content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.siteDescription }}{{ end }}" />
-	<meta property="og:image"         content="{{ if .Params.hero_img }}{{ .Site.Params.cloudinary_url }}/{{ .Params.hero_img }}{{ else }}{{ .Site.Params.cloudinary_url }}/logos/chinder_back_w0dvau.jpg{{ end }}" />
+	<meta property="og:image"         content="https://res.cloudinary.com/ml7757/image/upload/q_auto:good/v1617373092/nimajason/logo_colour_o3doff.png" />
 	<title>Nimajason | {{ .Page.Title }}</title>
 	{{ if .IsTranslated }}
 		{{ range .Translations }}
