@@ -5,7 +5,8 @@ accent_3: "#12AD2B"
 logo: "#FFC726"
 title: "{{ .Name | humanize }}"
 slug:	"{{ .Name | urlize }}"
-author: ብ ዓወት ኢያሱ
+description:
+author:
 date: {{ .Date }}
 location:
 poem: false

@@ -12,8 +12,12 @@ summaryLength = 20
     languageName = "Tigrinya"
     weight = 1
 		title = "ኣብ ጢግሪንያ እተጻሕፈ ግጥምታት"
+		[languages.ti.params]
+			siteDescription = "ግጥምታትን ዓንቀጻት ኤርትረኛን ብቛንቋ ጢግሪንያ"
 	[languages.en]
     contentDir = "content/english"
     languageName = "English"
     weight = 2
 		title = "Poems in Tigrinya"
+		[languages.en.params]
+			siteDescription = "Poems and Eritrean articles in the Tigrinya language"
