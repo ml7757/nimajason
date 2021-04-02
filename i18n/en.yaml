@@ -10,3 +10,5 @@
   translation: "Nimajason. All Rights Reserved"
 - id: footer_admin
   translation: "Admin"
+- id: card_btn
+  translation: "Read"
