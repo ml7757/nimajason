@@ -4,12 +4,20 @@
 		<li class="navigation__item"><a href="{{ "/poems" | relLangURL }}" class="navigation__link navigation__link--{{ .Params.theme }}">poems</a></li>
 		<li class="navigation__item"><a href="{{ "/articles" | relLangURL }}" class="navigation__link navigation__link--{{ .Params.theme }}">eritrea</a></li>
 		<li class="navigation__item"><a href="{{ "/about" | relLangURL  }}" class="navigation__link navigation__link--{{ .Params.theme }}">about</a></li>
-	</ul>
-	{{ if .IsTranslated }}
-		<nav class="LangNav">
+		{{ if .IsTranslated }}
 			{{ range .Translations }}
-				<a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+				<li class="navigation__flag">
+					{{ if eq .Language.LanguageName "English" }}
+						<a href="{{ .Permalink }}" class="navigation__flag-link">
+							{{ partial "svgs/uk_flag_svg.html" . }}
+						</a>
+					{{ else }}
+						<a href="{{ .Permalink }}" class="navigation__flag-link">
+							{{ partial "svgs/eritrea_flag_svg.html" . }}
+						</a>
+					{{ end }}
+				</li>
 			{{ end}}
-		</nav>
-	{{ end }}
+		{{ end }}
+	</ul>
 </nav>
