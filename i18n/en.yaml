@@ -18,3 +18,7 @@
   translation: "Location"
 - id: sidebar_by
   translation: "By"
+- id: donation_title
+  translation: "Fan of my work...?"
+- id: donation_text
+  translation: "Show your love by supporting my work and the language of Tigrinya"
