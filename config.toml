@@ -1,6 +1,7 @@
 baseURL = "https://nimajason.netlify.app/"
 defaultContentLanguage = "ti"
 summaryLength = 20
+paginate = 5
 
 [params]
 	cloudinary_url = "https://res.cloudinary.com/ml7757/image/upload/nimajason"

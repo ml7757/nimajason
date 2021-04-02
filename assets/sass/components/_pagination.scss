@@ -1,0 +1,34 @@
+.pagination {
+
+	&__elements {
+		list-style: none;
+		display: flex;
+		justify-content: center;
+	}
+
+	&__link {
+    position: relative;
+    display: block;
+    padding: .75rem 1rem;
+    margin-left: -1px;
+	}
+
+	&__item.active {
+
+		.pagination__link {
+			z-index: 1;
+			color: #fff;
+		}
+	}
+
+	&__item.disabled {
+
+		.disabled .pagination__link {
+			color: #6c757d;
+	    pointer-events: none;
+	    cursor: auto;
+	    background-color: #fff;
+	    border-color: #dee2e6;
+		}
+	}
+}

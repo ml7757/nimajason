@@ -1,8 +1,9 @@
 {{ define "main" }}
 	<div class="content__container">
-		{{ range .Pages}}
+		{{ range .Paginator.Pages.ByDate.Reverse }}
 			{{ .Scratch.Set "type" "poem" }}
 			{{ partial "card.html" . }}
 		{{ end }}
+		{{ partial "pagination.html" . }}
 	</div>
 {{ end }}
