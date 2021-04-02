@@ -1,0 +1,37 @@
+{{ $pag := $.Paginator }}
+{{ if gt $pag.TotalPages 1 }}
+{{ $.Scratch.Set "dot_rendered" false }}
+	<nav class="pagination">
+	  <ul class="pagination__elements">
+	    <!-- Don't show on 1st and 2nd page -->
+	    {{ if and (ne $pag.PageNumber 1) (ne $pag.PageNumber 2) }}
+	    	<li class="pagination__item"><a href="{{ $pag.First.URL }}" rel="first" class="pagination__link">« First</a></li>
+	    {{ end }}
+
+	    {{ if $pag.HasPrev  }}
+	    	<li class="pagination__item"><a href="{{ $pag.Prev.URL }}" rel="prev" class="pagination__link">‹ Prev</a></li>
+	    {{ end }}
+
+	    {{ range $pag.Pagers }}
+	      {{ if eq . $pag }} <!-- Current Page -->
+	      	<li class="pagination__item active"><a href="{{ .URL }}" class="pagination__link">{{ .PageNumber }}</a></li>
+	      {{ else if and (ge .PageNumber (sub $pag.PageNumber 2)) (le .PageNumber (add $pag.PageNumber 2)) }}
+	      	{{ $.Scratch.Set "dot_rendered" false }} <!-- Render prev 2 page and next 2 pages -->
+	      	<li class="pagination__item"><a href="{{ .URL }}" class="pagination__link">{{ .PageNumber }}</a></li>
+	      {{ else if eq ($.Scratch.Get "dot_rendered") false }} <!-- render skip pages -->
+		      {{ $.Scratch.Set "dot_rendered" true }}
+		      <li class="pagination__item disabled"><a class="pagination__link">...</a></li>
+	      {{ end }}
+	    {{ end }}
+
+	    {{ if $pag.HasNext }}
+		    <li class="pagination__item"><a href="{{ $pag.Next.URL }}" rel="next" class="pagination__link">Next ›</a></li>
+	    {{ end }}
+
+	    <!-- Don't show on last and 2nd last page -->
+	    {{ if and (ne $pag.PageNumber $pag.TotalPages) ((ne $pag.PageNumber (sub $pag.TotalPages 1))) }}
+	    	<li class="pagination__item"><a href="{{ $pag.Last.URL }}" rel="last" class="pagination__link">Last »</a></li>
+	    {{ end }}
+	  </ul>
+	</nav>
+{{ end }}
