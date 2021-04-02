@@ -1,11 +1,24 @@
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" 						content="width=device-width, initial-scale=1">
+	<meta property="og:url"           content="{{ .Permalink }}" />
+	<meta property="og:type"          content="article" />
+	<meta property="og:title"         content="{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}" />
+	<meta property="og:description"   content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.siteDescription }}{{ end }}" />
+	<meta property="og:image"         content="https://res.cloudinary.com/ml7757/image/upload/q_auto:good/v1617373092/nimajason/logo_colour_o3doff.png" />
 	<title>Nimajason | {{ .Page.Title }}</title>
 	{{ if .IsTranslated }}
 		{{ range .Translations }}
 			<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">
 		{{ end }}
 	{{ end }}
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/favicon/site.webmanifest">
+	<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#000000">
+	<meta name="msapplication-TileColor" content="#ffc40d">
+	<meta name="theme-color" content="#ffffff">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
 	{{ $options := (dict "outputStyle" "compressed") }}
