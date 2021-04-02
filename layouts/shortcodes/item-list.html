@@ -11,7 +11,7 @@
 			<div class="card__line" style="border-color: {{ $theme }};"></div>
 			<div class="card__btn">
 				<a href="{{ .RelPermalink }}" class="btn" style="border-color: {{ $theme }};">
-					Read
+					{{ T "card_btn" }}
 					{{- partial "svgs/chevron_right.html" . -}}
 				</a>
 			</div>
@@ -28,7 +28,7 @@
 			</div>
 			<div class="card__btn">
 				<a href="{{ .RelPermalink }}" class="btn" style="border-color: {{ $theme }};">
-					Read
+					{{ T "card_btn" }}
 					{{- partial "svgs/chevron_right.html" . -}}
 				</a>
 			</div>

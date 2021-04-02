@@ -1,0 +1,26 @@
+- id: nav_nimajason
+  translation: "ኒማጃሰን"
+- id: nav_poems
+  translation: "ግጥምታት"
+- id: nav_eritrea
+  translation: "ኤርትረያ"
+- id: nav_about
+  translation: "ብዛዕባ"
+- id: footer_rights
+  translation: "ኒማሃሰን ። ኵሉ መሰላት እተሓዝአ"
+- id: footer_admin
+  translation: "ኣመሓዳሪ"
+- id: card_btn
+  translation: "ኣንብብ"
+- id: sidebar_created
+  translation: "እተፈጥረ"
+- id: sidebar_location
+  translation: "ቦታ"
+- id: sidebar_by
+  translation: "ብእተፈጥረ"
+- id: donation_title
+  translation: "ናይ ስራሐይ ደጋፊ...?"
+- id: donation_text
+  translation: "ንዕዮይን ቋንቋ ጢግሪንያን ብምድጋፍ ፍቕርኻ ኣርኢ"
+- id: petition_btn
+  translation: "ጥርዓኖም ምልክት ግበሩ"

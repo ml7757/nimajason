@@ -1,0 +1,26 @@
+- id: nav_nimajason
+  translation: "nimajason"
+- id: nav_poems
+  translation: "poems"
+- id: nav_eritrea
+  translation: "eritrea"
+- id: nav_about
+  translation: "about"
+- id: footer_rights
+  translation: "Nimajason. All Rights Reserved"
+- id: footer_admin
+  translation: "Admin"
+- id: card_btn
+  translation: "Read"
+- id: sidebar_created
+  translation: "Created"
+- id: sidebar_location
+  translation: "Location"
+- id: sidebar_by
+  translation: "By"
+- id: donation_title
+  translation: "Fan of my work...?"
+- id: donation_text
+  translation: "Show your love by supporting my work and the language of Tigrinya"
+- id: petition_btn
+  translation: "Sign Petition"

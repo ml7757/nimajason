@@ -10,7 +10,7 @@
 	{{ end }}
 	<div class="card__btn">
 		<a href="{{ .RelPermalink }}" class="btn" style="border-color: {{ .Params.accent_1 }};">
-			Read
+			{{ T "card_btn" }}
 			{{- partial "svgs/chevron_right.html" . -}}
 		</a>
 	</div>

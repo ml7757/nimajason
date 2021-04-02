@@ -1,7 +1,19 @@
 baseURL = "https://nimajason.netlify.app/"
-languageCode = "en-us"
-title = "Poems in Tigrinya"
+defaultContentLanguage = "ti"
 summaryLength = 20
+
 [params]
 	cloudinary_url = "https://res.cloudinary.com/ml7757/image/upload/nimajason"
 	DateForm = "2.01.2006 15:04 MST"
+
+[languages]
+  [languages.ti]
+    contentDir = "content/tigrinya"
+    languageName = "Tigrinya"
+    weight = 1
+		title = "ኣብ ጢግሪንያ እተጻሕፈ ግጥምታት"
+	[languages.en]
+    contentDir = "content/english"
+    languageName = "English"
+    weight = 2
+		title = "Poems in Tigrinya"

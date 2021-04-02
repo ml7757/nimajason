@@ -1,19 +1,23 @@
 .navigation {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 
-	&__content,
-	&__language {
+	&__content {
 		list-style: none;
 		display: flex;
 	}
 
 	&__content { justify-content: space-around; }
 
-	&__item { padding: 5rem 0 2rem 0; }
+	&__item {
+		padding: 5rem 0 2rem 0;
+
+		&-flag { padding: 5.5rem 0 1.5rem 0; }
+	}
 
 	&__link {
-		padding: 5.5rem 2rem 2.6rem 2rem;
+		padding: 5.5rem 1rem 2.6rem 1rem;
+
 
 		&:link,
 		&:visited {
@@ -44,6 +48,18 @@
 				color: #000000;
 				background-color: #ffffff;
 			}
+		}
+
+		&-flag { padding: 0 1rem; }
+	}
+
+	&__flag {
+		padding: 5.5rem 0 1rem 0;
+		margin-left: 1rem;
+
+		&-link {
+			background-color: #f4f4f4;
+			padding: 1.4rem .5rem .5rem .5rem;
 		}
 	}
 }

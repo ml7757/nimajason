@@ -2,16 +2,16 @@
 	<footer class="footer footer--{{ . }}">
 		<div class="footer__container">
 			<ul class="footer__menu">
-				<li class="footer__item"><a href="/" class="footer__link">nimajason</a></li>
-				<li class="footer__item"><a href="/poems" class="footer__link">poems</a></li>
-				<li class="footer__item"><a href="/tigrinya" class="footer__link">tigrinya</a></li>
-				<li class="footer__item"><a href="/about" class="footer__link">about</a></li>
+				<li class="footer__item"><a href="/" class="footer__link">{{ T "nav_nimajason" }}</a></li>
+				<li class="footer__item"><a href="/poems" class="footer__link">{{ T "nav_poems" }}</a></li>
+				<li class="footer__item"><a href="/tigrinya" class="footer__link">{{ T "nav_eritrea" }}</a></li>
+				<li class="footer__item"><a href="/about" class="footer__link">{{ T "nav_about" }}</a></li>
 			</ul>
 			{{ partial "svgs/footer_svg.html" . }}
 			<div class="footer__copyright">
-				<span>&#169; {{ now.Format "2006"}} Nimajason. All Rights Reserved</span>
+				<span>&#169; {{ now.Format "2006"}} {{ T "footer_rights" }}</span>
 				<span class="footer__pipe">|</span>
-				<span><a href="/admin" class="footer__link">Admin</a></span>
+				<span><a href="/admin" class="footer__link">{{ T "footer_admin" }}</a></span>
 			</div>
 		</div>
 	</footer>

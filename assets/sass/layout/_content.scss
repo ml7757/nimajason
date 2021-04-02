@@ -3,13 +3,22 @@
 	&__container {
 		text-align: justify;
 
-		h2 {
-			font-family: 'Archivo Black', sans-serif;
-			text-transform: uppercase;
-			margin-bottom: 3rem;
+		h1,	h2 { font-family: 'Archivo Black', sans-serif; }
 
+		h1, h2, p { margin-bottom: 3rem; }
+
+		&--poem {
+			text-align: center;
+
+			h1 {
+				font-size: 4rem;
+				margin-bottom: 5rem;
+			}
+
+			p {
+				font-size: 2rem;
+				margin-bottom: 3rem;
+			}
 		}
-
-		p { margin-bottom: 3rem; }
 	}
 }
