@@ -32,7 +32,7 @@ theme: "light"
 
 {{< item-list color="#4189DD" type="article" >}}
 
-{{< btn href="/articles" text="See all" color="#4189DD" >}}
+{{< btn href="/articles" text="ንዅሉ ርኣዮ" color="#4189DD" >}}
 
 {{< divider >}}
 
