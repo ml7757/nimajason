@@ -12,3 +12,9 @@
   translation: "Admin"
 - id: card_btn
   translation: "Read"
+- id: sidebar_created
+  translation: "Created"
+- id: sidebar_location
+  translation: "Location"
+- id: sidebar_by
+  translation: "By"

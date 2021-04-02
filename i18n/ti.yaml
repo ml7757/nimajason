@@ -12,3 +12,9 @@
   translation: "ኣመሓዳሪ"
 - id: card_btn
   translation: "ኣንብብ"
+- id: sidebar_created
+  translation: "እተፈጥረ"
+- id: sidebar_location
+  translation: "ቦታ"
+- id: sidebar_by
+  translation: "ብእተፈጥረ"
