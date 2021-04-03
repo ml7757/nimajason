@@ -37,9 +37,9 @@ fields:
   name: poem
   label: poem
   default: true
-  hidden: false
+  hidden: true
 - type: text
   name: theme
   label: theme
   default: light
-  hidden: false
+  hidden: true
