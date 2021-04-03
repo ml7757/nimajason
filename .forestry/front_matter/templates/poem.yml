@@ -36,8 +36,10 @@ fields:
 - type: boolean
   name: poem
   label: poem
-  default: false
+  default: true
   hidden: false
 - type: text
   name: theme
   label: theme
+  default: light
+  hidden: false
