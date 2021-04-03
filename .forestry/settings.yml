@@ -21,11 +21,15 @@ sections:
   label: Articles (English)
   create: documents
   match: "**/*"
+  templates:
+  - article
 - type: directory
   path: content/tigrinya/articles
   label: Articles (Tigrinya)
   create: documents
   match: "**/*"
+  templates:
+  - article
 - type: directory
   path: content/english/poems
   label: Poems (English)
