@@ -43,5 +43,3 @@ fields:
   label: theme
   default: light
   hidden: true
-pages:
-- content/tigrinya/poems/ገለ-ነገር.md
