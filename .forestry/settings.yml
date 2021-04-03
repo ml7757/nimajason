@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
+- type: document
+  path: content/tigrinya/about.md
+  label: About Page (Tigrinya)
+  match: "**/*"
 - type: directory
   path: content/english/articles
   label: Articles (English)
