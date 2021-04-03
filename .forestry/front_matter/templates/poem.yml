@@ -48,5 +48,4 @@ fields:
   default: light
   hidden: true
 pages:
-- content/english/poems/something.md
 - content/english/poems/ገለ-ነገር.md
