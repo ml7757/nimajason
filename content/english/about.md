@@ -30,3 +30,12 @@ in the Tigrinya language. Over time however, it is my intention to translate thi
 {{< donation  title="Fan of my work...?" text="Show your love by supporting my work and the language of Tigrinya." color="#ffffff" background="heart-yellow_d2afzw.png" >}}
 
 {{< petition text="Help the Tigrinya community get the Tigrinya language on Google Translate" >}}
+
+{{< divider >}}
+
+Inspiration for my website is thanks to {{< target link="https://www.hawksworx.com/" text="Phil Hawksworth">}}.
+While I did not use Phil's repository outright, the stylistic approached for my
+website was strictly influenced by Phil's work. The design and structure of this
+website has been published under a {{< target link="https://creativecommons.org/licenses/by/3.0/" text="Creative Commons Attribution 3.0 licence">}},
+but the content created through my poems and articles is my own, and its use is
+therefore subject to my express prior written consent.
