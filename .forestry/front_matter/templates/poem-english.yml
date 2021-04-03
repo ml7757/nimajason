@@ -5,33 +5,61 @@ fields:
 - type: text
   name: accent_1
   label: accent_1
+  hidden: true
+  default: "#12AD2B"
 - type: text
   name: accent_2
   label: accent_2
+  hidden: true
+  default: "#EA0437"
 - type: text
   name: accent_3
   label: accent_3
+  hidden: true
+  default: "#4189DD"
 - type: text
   name: logo
   label: logo
+  hidden: true
+  default: "#FFC726"
 - type: text
   name: title
   label: title
+  config:
+    required: true
+- name: eng_title
+  type: text
+  config:
+    required: true
+  label: English title
+  description: Required when creating a translated poem to English.
 - type: text
   name: slug
   label: slug
+  config:
+    required: true
+  description: This should be the English (or Tigrinya) title for the poem.
 - type: text
   name: author
   label: author
+  config:
+    required: true
 - type: datetime
   name: date
   label: date
 - type: text
   name: location
   label: location
+  description: Where was this poem written?
+  config:
+    required: true
 - type: boolean
   name: poem
   label: poem
+  hidden: true
+  default: true
 - type: text
   name: theme
   label: theme
+  hidden: true
+  default: light
