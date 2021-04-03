@@ -1,5 +1,6 @@
 baseURL = "https://nimajason.com"
 defaultContentLanguage = "ti"
+defaultContentLanguageInSubdir = true
 summaryLength = 20
 paginate = 5
 
