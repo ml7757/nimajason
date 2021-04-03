@@ -47,5 +47,3 @@ fields:
   label: theme
   default: light
   hidden: true
-pages:
-- content/english/poems/ገለ-ነገር.md
