@@ -1,7 +1,11 @@
 {{ define "main" }}
 	<div class="content__container content__container--standard">
+		{{ if .Params.eng_title }}
+			<h1>{{ .Params.eng_title }}</h1>
+		{{ else }}
 			<h1>{{ .Params.title }}</h1>
-			<p>{{ .Content }}</p>
+		{{ end }}
+		<p>{{ .Content }}</p>
 
 		<div class="divider"></div>
 

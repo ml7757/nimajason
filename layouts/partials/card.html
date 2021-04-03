@@ -1,6 +1,10 @@
 {{ $type := .Scratch.Get `type` }}
 <div class="card">
-	<h1 class="card__title">{{ .Params.title }}</h1>
+	{{ if .Params.eng_title }}
+		<h1 class="card__title">{{ .Params.eng_title }}</h1>
+	{{ else }}
+		<h1 class="card__title">{{ .Params.title }}</h1>
+	{{ end }}
 	<div class="card__date">{{ .Date.Format .Site.Params.DateForm }}</div>
 	<div class="card__line" style="border-color: {{ .Params.accent_1 }};"></div>
 	{{ if eq $type "article" }}
