@@ -1,24 +1,42 @@
-.content {
+.content__container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 3em;
+  padding-bottom: 4em;
 
-	&__container {
+	h1,	h2 { font-family: 'Archivo Black', sans-serif; }
+
+	h2, p { margin-bottom: 3rem; }
+
+	@include respond (bp-med) {
+		width: 70%;
+		max-width: 700px;
+	}
+
+	@include respond (bp-lg) {
+		width: 60%;
+		max-width: 600px;
+		margin-left: 4em;
+	}
+
+	&--standard {
 		text-align: justify;
 
-		h1,	h2 { font-family: 'Archivo Black', sans-serif; }
+		h1 { margin-bottom: 3rem; }
+	}
 
-		h1, h2, p { margin-bottom: 3rem; }
+	&--poem {
+		text-align: center;
 
-		&--poem {
-			text-align: center;
+		h1 {
+			font-size: 4rem;
+			margin-bottom: 5rem;
+		}
 
-			h1 {
-				font-size: 4rem;
-				margin-bottom: 5rem;
-			}
-
-			p {
-				font-size: 2rem;
-				margin-bottom: 3rem;
-			}
+		p {
+			font-size: 2rem;
+			margin-bottom: 3rem;
 		}
 	}
 }

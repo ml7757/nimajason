@@ -12,21 +12,23 @@
 					{{ .Params.title }}
 				{{ end }}
 			</h2>
-			<p class="sidebar__details">
-				{{ if .Params.date }}
+			<div class="sidebar__details">
+				<p class="sidebar__item">
+					{{ if .Params.date }}
 					<span class="sidebar__bold">{{ T "sidebar_created" }}:</span> {{ .Date.Format .Site.Params.DateForm }}
-				{{ end }}
-			</p>
-			<p class="sidebar__details">
-				{{ if .Params.location }}
+					{{ end }}
+				</p>
+				<p class="sidebar__item">
+					{{ if .Params.location }}
 					<span class="sidebar__bold">{{ T "sidebar_location" }}:</span> {{ .Params.location }}
-				{{ end }}
-			</p>
-			<p class="sidebar__details">
-				{{ if .Params.author }}
+					{{ end }}
+				</p>
+				<p class="sidebar__item">
+					{{ if .Params.author }}
 					<span class="sidebar__bold">{{ T "sidebar_by" }}:</span> {{ .Params.author }}
-				{{ end }}
-			</p>
+					{{ end }}
+				</p>
+			</div>
 		</div>
 	</header>
 </div>

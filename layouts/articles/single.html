@@ -1,9 +1,10 @@
 {{ define "main" }}
-	<div class="content__container">
-		<h1>{{ .Params.title }}</h1>
-		<p>{{ .Content }}</p>
-	</div>
-	<div class="divider"></div>
+	<div class="content__container content__container--standard">
+			<h1>{{ .Params.title }}</h1>
+			<p>{{ .Content }}</p>
 
-	{{ partial "donation.html" (dict "color" "#ffffff" "background" "heart-red_xif1ny.png") . }}
+		<div class="divider"></div>
+
+		{{ partial "donation.html" (dict "color" "#ffffff" "background" "heart-red_xif1ny.png") . }}
+	</div>
 {{ end }}
