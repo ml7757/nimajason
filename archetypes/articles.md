@@ -4,6 +4,7 @@ accent_2: "#4189DD"
 accent_3: "#12AD2B"
 logo: "#FFC726"
 title: "{{ .Name | humanize }}"
+eng_title:
 slug:	"{{ .Name | urlize }}"
 description:
 author:
