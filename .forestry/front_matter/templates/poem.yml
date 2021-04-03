@@ -48,4 +48,5 @@ fields:
   default: light
   hidden: true
 pages:
+- content/english/poems/something.md
 - content/tigrinya/poems/ገለ-ነገር.md
