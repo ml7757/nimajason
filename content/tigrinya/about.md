@@ -30,3 +30,11 @@ layout: "about"
 {{< donation  title="ናይ ስራሐይ ደጋፊ...?" text="ንዕዮይን ቋንቋ ጢግሪንያን ብምድጋፍ ፍቕርኻ ኣርኢ ።" color="#ffffff" background="heart-yellow_d2afzw.png" >}}
 
 {{< petition text="ንማሕበረሰብ ጢግሪንያ ቛንቋ ጢግሪንያ ብGoogl Translate ንኺረኽብዎ ሓግዞም" >}}
+
+{{< divider >}}
+
+ሳላ ወብ ሳይተይ መንፈስ ዝነፈሶ {{< target link="https://www.hawksworx.com/" text="Phil Hawksworth">}}.
+ነቲ ፊል ዚጥቀመሉ ዝነበረ መኽዘን ብቐጥታ እኳ እንተ ዘይጠቐምክዎ እቲ ኣመሻሽጣ ይቐርበለይ ነበረ
+ወብ ሳይት ብዕዮ ፊል ኣጸቢቑ ተጸልዩ እዩ ። ንድፍን መዋቕርን እዚ ወብ ሳይት ኣብ ትሕቲ ሓደ ወብ
+ሳይት ተሓቲሙ ኣሎ {{< target link="https://creativecommons.org/licenses/by/3.0/" text="Creative Commons Attribution 3.0 licence">}}, ግናኸ እቲ ብመልክዕ ግጥምታተይን ዓንቀጽታተይን እተፈጥረ ትሕዝቶ
+ናተይ እዩ፣ ኣጠቓቕማኡ ኸኣ እዩ ስለዚ ኣቐዲመ ብጽሑፍ ዝሰፈረ ፍቓደይ ግበሩለይ።
