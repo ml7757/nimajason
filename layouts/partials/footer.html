@@ -1,5 +1,6 @@
+{{ $theme := .Params.accent_1 }}
 {{ with .Params.theme }}
-	<footer class="footer footer--{{ . }}">
+	<footer class="footer footer--{{ . }}" style="background-color:{{ $theme }};">
 		<div class="footer__container">
 			<ul class="footer__menu">
 				<li class="footer__item"><a href="/" class="footer__link">{{ T "nav_nimajason" }}</a></li>

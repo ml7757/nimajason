@@ -9,17 +9,19 @@
 
 html {
 	box-sizing: border-box;
-	font-size: 62.5%;
+	font-size: 50%;
+
+	@include respond(bp-med) { font-size: 56.25%; }
+
+	@include respond(bp-med) { font-size: 62.5%;; }
+
 }
 
-body { display: flex; }
+body {
+	display: flex;
+	flex-direction: column;
 
-.main {
-	width: 55%;
-
-	&__content {
-		width: 60%;
-		margin-left: 5rem;
-		padding: 5rem 0;
-	}
+	@include respond(bp-lg) { flex-direction: row; }
 }
+
+.main { @include respond(bp-lg) { width: 55%; } }

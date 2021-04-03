@@ -1,0 +1,13 @@
+// 1em = 16px
+
+@mixin respond($breakpoint) {
+	@if $breakpoint == bp-small {
+		@media (min-width: 25em) { @content };	//400px
+	}
+	@if $breakpoint == bp-med {
+		@media (min-width: 50rem) { @content };	//800px
+	}
+	@if $breakpoint == bp-lg {
+		@media (min-width: 79.125em) { @content };	//1266px
+	}
+}
