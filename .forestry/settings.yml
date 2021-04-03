@@ -36,7 +36,7 @@ sections:
   create: documents
   match: "**/*"
   templates:
-  - poem
+  - poem-english
 - type: directory
   path: content/tigrinya/poems
   label: Poems (Tigrinya)
