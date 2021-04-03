@@ -32,7 +32,7 @@ fields:
 - name: eng_title
   type: text
   config:
-    required: false
+    required: true
   label: English title
   description: Required when creating a translated poem to English.
 - type: text
