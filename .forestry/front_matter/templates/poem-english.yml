@@ -27,6 +27,8 @@ fields:
   label: title
   config:
     required: true
+  description: This title <strong>MUST</strong> be the same as the title of the Tigrinya
+    poem you are translating.
 - name: eng_title
   type: text
   config:
