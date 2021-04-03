@@ -65,3 +65,5 @@ fields:
   label: theme
   hidden: true
   default: light
+pages:
+- content/english/poems/ምሰሊ.md
