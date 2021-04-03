@@ -5,9 +5,9 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: directory
-  path: content/poems
-  label: Poems
-  create: all
+  path: content/tigrinya/poems
+  label: Poems (Tigrinya)
+  create: documents
   match: "**/*"
 - type: directory
   path: content
