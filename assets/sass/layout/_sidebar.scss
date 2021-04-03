@@ -15,11 +15,16 @@
 	}
 
 	&__container {
-		width: 70%;
+		width: 90%;
 		margin: auto;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+
+		@include respond(bp-small) {
+			width: 80%;
+			max-width: 80rem;
+		}
 
 		@include respond(bp-med) {
 			width: 70%;
@@ -35,7 +40,7 @@
 	&__logo {
 		width: 20rem;
 		height: 15rem;
-
+		margin: 3rem 0;
 
 		@include respond(bp-med) {
 			width: 24rem;
@@ -53,7 +58,7 @@
 	&__title {
 		font-family: 'Archivo Black', sans-serif;
 		text-transform: uppercase;
-		width: 75%;
+		width: 100%;
 		text-align: center;
 		line-height: 4rem;
 		margin-bottom: .5rem;

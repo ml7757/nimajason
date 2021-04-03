@@ -2,7 +2,7 @@
 
 @mixin respond($breakpoint) {
 	@if $breakpoint == bp-small {
-		@media (min-width: 31.25em) { @content };	//500px
+		@media (min-width: 25em) { @content };	//400px
 	}
 	@if $breakpoint == bp-med {
 		@media (min-width: 50rem) { @content };	//800px
