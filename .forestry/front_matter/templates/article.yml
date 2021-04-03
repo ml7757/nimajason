@@ -5,15 +5,19 @@ fields:
 - type: text
   name: accent_1
   label: accent_1
+  hidden: true
 - type: text
   name: accent_2
   label: accent_2
+  hidden: true
 - type: text
   name: accent_3
   label: accent_3
+  hidden: true
 - type: text
   name: logo
   label: logo
+  hidden: true
 - type: text
   name: title
   label: title
