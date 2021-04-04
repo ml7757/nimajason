@@ -1,0 +1,40 @@
+---
+label: Article (English)
+hide_body: false
+fields:
+- type: text
+  name: accent_1
+  label: accent_1
+- type: text
+  name: accent_2
+  label: accent_2
+- type: text
+  name: accent_3
+  label: accent_3
+- type: text
+  name: logo
+  label: logo
+- type: text
+  name: title
+  label: title
+- type: text
+  name: slug
+  label: slug
+- type: text
+  name: description
+  label: description
+- type: text
+  name: author
+  label: author
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: location
+  label: location
+- type: boolean
+  name: poem
+  label: poem
+- type: text
+  name: theme
+  label: theme
