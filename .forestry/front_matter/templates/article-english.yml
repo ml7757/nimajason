@@ -29,6 +29,13 @@ fields:
     poem you are translating.
   config:
     required: true
+- name: eng_title
+  type: text
+  config:
+    required: true
+  label: English title
+  description: What is the English version of your article? (Required when creating
+    a translated article to English.}
 - type: text
   name: slug
   label: Article URL ending
