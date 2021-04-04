@@ -1,5 +1,5 @@
 ---
-label: Article
+label: Article (Tigrinya)
 hide_body: false
 fields:
 - type: text
@@ -25,21 +25,36 @@ fields:
 - type: text
   name: title
   label: title
+  config:
+    required: true
+  description: What is the title of your article?
 - type: text
   name: slug
   label: slug
+  hidden: true
 - type: text
   name: description
   label: description
+  description: A one sentence description describing what the article is about.
+  config:
+    required: true
 - type: text
   name: author
   label: author
+  description: Who wrote this article?
+  config:
+    required: true
 - type: datetime
   name: date
   label: date
+  config:
+    required: true
 - type: text
   name: location
   label: location
+  config:
+    required: true
+  description: Where was this article written?
 - type: boolean
   name: poem
   label: poem
