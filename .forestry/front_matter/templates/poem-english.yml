@@ -24,7 +24,7 @@ fields:
   default: "#FFC726"
 - type: text
   name: title
-  label: title
+  label: Poem title
   config:
     required: true
   description: This title <strong>MUST</strong> be the same as the title of the Tigrinya
@@ -37,21 +37,22 @@ fields:
   description: Required when creating a translated poem to English.
 - type: text
   name: slug
-  label: slug
+  label: Poem URL ending
   config:
     required: true
   description: This should be the English (or Tigrinya) title for the poem.
 - type: text
   name: author
-  label: author
+  label: Poem author
   config:
     required: true
+  description: Who wrote this poem?
 - type: datetime
   name: date
   label: date
 - type: text
   name: location
-  label: location
+  label: Location where poem written
   description: Where was this poem written?
   config:
     required: true
