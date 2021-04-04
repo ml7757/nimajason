@@ -24,16 +24,17 @@ fields:
   default: "#FFC726"
 - type: text
   name: title
-  label: title
+  label: Poem title
   config:
     required: true
+  description: What is the title of your poem?
 - type: text
   name: slug
   label: slug
   hidden: true
 - type: text
   name: author
-  label: author
+  label: Poem author
   config:
     required: true
   description: Who wrote this poem?
@@ -42,9 +43,10 @@ fields:
   label: date
   config:
     required: true
+  description: When was this poem written?
 - type: text
   name: location
-  label: location
+  label: Location where poem written
   config:
     required: true
   description: Where did you write this poem?
