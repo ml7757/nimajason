@@ -69,3 +69,5 @@ fields:
   label: theme
   hidden: true
   default: light
+pages:
+- content/english/articles/ሰንደቕ-ዕላማ-ኤርትረ.md
