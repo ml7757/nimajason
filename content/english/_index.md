@@ -1,13 +1,13 @@
 ---
-title: "Poems in Tigrinya."
+title: Poems in Tigrinya.
 accent_1: "#4189DD"
 accent_2: "#12AD2B"
 accent_3: "#EA0437"
 logo: "#FFC726"
-sidebar_title: "Poems and stories in the language of my people."
-theme: "light"
----
+sidebar_title: Poems and stories in the language of my people.
+theme: light
 
+---
 Hello. I'm Awet. And welcome to my passion project. Through my poems and stories, I wish to share with you the love I have for Tigrinya, the language of my people, and my homeland of Eritrea. Please enjoy and thanks for stopping by.
 
 {{< divider >}}
@@ -26,7 +26,7 @@ Hello. I'm Awet. And welcome to my passion project. Through my poems and stories
 
 {{< divider >}}
 
-## Stories of Eritrea
+## Articles on Eritrea
 
 {{< item-list color="#4189DD" type="article" >}}
 
