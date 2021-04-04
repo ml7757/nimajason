@@ -22,7 +22,7 @@ sections:
   create: documents
   match: "**/*"
   templates:
-  - article
+  - article-english
 - type: directory
   path: content/tigrinya/articles
   label: Articles (Tigrinya)
