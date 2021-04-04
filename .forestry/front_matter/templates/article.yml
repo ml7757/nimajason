@@ -24,7 +24,7 @@ fields:
   default: "#FFC726"
 - type: text
   name: title
-  label: title
+  label: Article title
   config:
     required: true
   description: What is the title of your article?
@@ -34,24 +34,25 @@ fields:
   hidden: true
 - type: text
   name: description
-  label: description
+  label: Article description
   description: A one sentence description describing what the article is about.
   config:
     required: true
 - type: text
   name: author
-  label: author
+  label: Article author
   description: Who wrote this article?
   config:
     required: true
 - type: datetime
   name: date
-  label: date
+  label: Date article written
   config:
     required: true
+  description: When was this article written?
 - type: text
   name: location
-  label: location
+  label: Location where article written
   config:
     required: true
   description: Where was this article written?
