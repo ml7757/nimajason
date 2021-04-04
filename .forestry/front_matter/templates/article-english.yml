@@ -24,25 +24,41 @@ fields:
   default: "#FFC726"
 - type: text
   name: title
-  label: title
+  label: Article title
+  description: This title <strong>MUST</strong> be the same as the title of the Tigrinya
+    poem you are translating.
+  config:
+    required: true
 - type: text
   name: slug
-  label: slug
+  label: Article URL ending
+  description: What you want the url ending to look like.
+  config:
+    required: true
 - type: text
   name: description
-  label: description
+  label: Article description
+  description: A one sentence description describing what your article is about.
+  config:
+    required: true
 - type: text
   name: author
-  label: author
+  label: Article author
+  description: Who wrote this article?
 - type: datetime
   name: date
-  label: date
+  label: Date written
+  description: When was this article written?
 - type: text
   name: location
-  label: location
+  label: Location where article written
+  description: Where was this article written?
 - type: boolean
   name: poem
   label: poem
+  hidden: true
 - type: text
   name: theme
   label: theme
+  hidden: true
+  default: light
