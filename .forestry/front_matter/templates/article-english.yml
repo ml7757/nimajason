@@ -39,7 +39,7 @@ fields:
 - type: text
   name: slug
   label: Article URL ending
-  description: What you want the url ending to look like.
+  description: This should be the English (or Tigrinya) title for the article.
   config:
     required: true
 - type: text
