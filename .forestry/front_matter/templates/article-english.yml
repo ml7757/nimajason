@@ -5,15 +5,23 @@ fields:
 - type: text
   name: accent_1
   label: accent_1
+  default: "#EA0437"
+  hidden: true
 - type: text
   name: accent_2
   label: accent_2
+  default: "#4189DD"
+  hidden: true
 - type: text
   name: accent_3
   label: accent_3
+  hidden: true
+  default: "#12AD2B"
 - type: text
   name: logo
   label: logo
+  hidden: true
+  default: "#FFC726"
 - type: text
   name: title
   label: title
