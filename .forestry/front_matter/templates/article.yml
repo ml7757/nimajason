@@ -65,3 +65,5 @@ fields:
   label: theme
   default: light
   hidden: true
+pages:
+- content/tigrinya/articles/ሰንደቕ-ዕላማ-ኤርትረ.md
