@@ -24,7 +24,7 @@ layout: "about"
 
 ## ኣብዚ ኢድካ እትህልወሉ መገድታት
 
-{{< donation  title="ናይ ስራሐይ ደጋፊ...?" text="ንዕዮይን ቋንቋ ጢግሪንያን ብምድጋፍ ፍቕርኻ ኣርኢ ።" color="#ffffff" background="heart-yellow_d2afzw.png" >}}
+{{< donation  title="ናይ ስራሕ ድገፍቲ… ፧" text="ንዕዮን ቋንቋ-ትግርኛ ብምድጋፍኲም ፍቕሪዂም ኣርእዩኒ።" color="#ffffff" background="heart-yellow_d2afzw.png" >}}
 
 {{< petition text="ንማሕበረሰብ ጢግሪንያ ቛንቋ ጢግሪንያ ብGoogl Translate ንኺረኽብዎ ሓግዞም" >}}
 

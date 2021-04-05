@@ -20,7 +20,7 @@ theme: light
 
 {{< divider >}}
 
-{{< donation  title="ናይ ስራሐይ ደጋፊ...?" text="ንዕዮይን ቋንቋ ጢግሪንያን ብምድጋፍ ፍቕርኻ ኣርኢ ።" color="#ffffff" background="heart-blue_tjbkge.png" >}}
+{{< donation  title="ናይ ስራሕ ድገፍቲ… ፧ " text="ንዕዮን ቋንቋ-ትግርኛ ብምድጋፍኲም ፍቕሪዂም ኣርእዩኒ።" color="#ffffff" background="heart-blue_tjbkge.png" >}}
 
 {{< petition text="ንማሕበረሰብ ጢግሪንያ ቛንቋ ጢግሪንያ ብGoogl Translate ንኺረኽብዎ ሓግዞም" >}}
 
