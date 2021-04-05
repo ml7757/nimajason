@@ -26,7 +26,7 @@ layout: "about"
 
 {{< donation  title="ናይ ስራሕ ድገፍቲ… ፧" text="ንዕዮን ቋንቋ-ትግርኛ ብምድጋፍኲም ፍቕሪዂም ኣርእዩኒ።" color="#ffffff" background="heart-yellow_d2afzw.png" >}}
 
-{{< petition text="ንማሕበረሰብ ጢግሪንያ ቛንቋ ጢግሪንያ ብGoogl Translate ንኺረኽብዎ ሓግዞም" >}}
+{{< petition text="ንማሕበረ-ሰብ ትግርኛ፡  ቋንቋ-ትግርኛ  ብGoogle translate ንኽረኽብዎ ሓግዞም።" >}}
 
 {{< divider >}}
 
