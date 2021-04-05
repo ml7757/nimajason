@@ -1,14 +1,14 @@
 ---
-title: "ብዛዕባ"
+title: ብዛዕባ
 accent_1: "#FFC726"
 accent_2: "#ffffff"
 accent_3: "#000000"
 logo: "#000000"
-sidebar_title: "ብዛዕባይ"
-theme: "dark"
-layout: "about"
----
+sidebar_title: ብዛዕባይ
+theme: dark
+layout: about
 
+---
 {{< profile >}}
 
 ስመይ ዓወት ኢያሱ እበሃል።  ተወሊደ ዝዓበኽሉ ድማ ኣብ ኤርትራ'ዩ። ኣነ ንመብዛሕቱኡ ሂይወተይ ኣብ
@@ -22,7 +22,7 @@ layout: "about"
 
 {{< divider >}}
 
-## ኣብዚ ኢድካ እትህልወሉ መገድታት
+## ኣብ'ዚ ኢድካ እትህልወሉ መገድታት
 
 {{< donation  title="ናይ ስራሕ ድገፍቲ… ፧" text="ንዕዮን ቋንቋ-ትግርኛ ብምድጋፍኲም ፍቕሪዂም ኣርእዩኒ።" color="#ffffff" background="heart-yellow_d2afzw.png" >}}
 
