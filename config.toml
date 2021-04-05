@@ -1,6 +1,8 @@
 baseURL = "https://nimajason.com"
 defaultContentLanguage = "ti"
 defaultContentLanguageInSubdir = true
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
 summaryLength = 20
 paginate = 5
 
