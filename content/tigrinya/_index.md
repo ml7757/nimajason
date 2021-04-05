@@ -1,5 +1,5 @@
 ---
-title: ኣብ ጢግሪንያ እተጻሕፈ ግጥምታት
+title: ብ ትግርኛ ዝተጻሕፈ ግጥሚታት
 accent_1: "#4189DD"
 accent_2: "#12AD2B"
 accent_3: "#EA0437"
