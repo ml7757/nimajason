@@ -1,7 +1,17 @@
 ---
-label: Static (Tigrinya)
+label: Static Page
 hide_body: false
 fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: Filename
+- name: slug
+  type: text
+  config:
+    required: false
+  label: slug
 - type: text
   name: title
   label: title
