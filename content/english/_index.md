@@ -6,7 +6,6 @@ accent_3: "#EA0437"
 logo: "#FFC726"
 sidebar_title: Poems and stories in the language of my people.
 theme: light
-
 ---
 Hello. I'm Awet. And welcome to my passion project. Through my poems and stories, I wish to share with you the love I have for Tigrinya, the language of my people, and my homeland of Eritrea. Please enjoy and thanks for stopping by.
 
