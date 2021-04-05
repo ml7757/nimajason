@@ -4,6 +4,6 @@ accent_1: "#EA0437"
 accent_2: "#4189DD"
 accent_3: "#12AD2B"
 logo: "#FFC726"
-sidebar_title: "ኤርትረያ ፦ ዓደይ"
+sidebar_title: "ኤርትራ፡ ሃገረይ "
 theme: "light"
 ---
