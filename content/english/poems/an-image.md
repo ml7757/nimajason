@@ -1,0 +1,34 @@
++++
+accent_1 = "#12AD2B"
+accent_2 = "#EA0437"
+accent_3 = "#4189DD"
+author = "Awet Iyasu"
+date = 2019-12-06T22:47:00Z
+eng_title = "An Image!"
+location = "Bern, Switzerland"
+logo = "#FFC726"
+poem = true
+slug = "An Image!"
+theme = "light"
+title = "An image!"
+
++++
+ክትመስሊ!
+
+ብመልክዕ ስራሕ ተመሳሰሊ
+
+ንኣደኺ ብፍርጥረት ምሰሊ
+
+ኣቲ ዕንበባ ጥልልቲ ኣውሊ
+
+ኣቲ ሸዊት ውልዶ ሰብሊ፣
+
+እንተሪአኺ…
+
+ብኣጋ ተምዕጒኒ፡ እፍንቅሎ ንኸውሊ
+
+ሓይሊ እስምዓኒ፡ እናርሃጽኩ ኣውሊ
+
+ምጽኒ’ባ ሻመይ፡ ንድኻመይ ከተጥልሊ
+
+ማይ-ጽምኣት ከተርውዪኒ፡ ንዓለምኪ ምሰሊ።

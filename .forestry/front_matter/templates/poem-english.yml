@@ -66,3 +66,5 @@ fields:
   label: theme
   hidden: true
   default: light
+pages:
+- content/english/poems/an-image.md
