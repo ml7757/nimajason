@@ -15,9 +15,9 @@ paginate = 5
     contentDir = "content/tigrinya"
     languageName = "Tigrinya"
     weight = 1
-		title = "ኣብ ጢግሪንያ እተጻሕፈ ግጥምታት"
+		title = "ኣብ ትግርኛ ዝተጻሕፈ ግጥሚታት"
 		[languages.ti.params]
-			siteDescription = "ግጥምታትን ዓንቀጻት ኤርትረኛን ብቛንቋ ጢግሪንያ"
+			siteDescription = "ግጥሚታትን ዓንቀጻትን ኤርትራ ብቛንቋ ትግርኛ"
 	[languages.en]
     contentDir = "content/english"
     languageName = "English"
