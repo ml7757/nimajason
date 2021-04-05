@@ -1,17 +1,17 @@
 - id: nav_nimajason
-  translation: "ኒማጃሰን"
+  translation: "ኒማጃሶን"
 - id: nav_poems
-  translation: "ግጥምታት"
+  translation: "ግጥሚታት"
 - id: nav_eritrea
-  translation: "ኤርትረያ"
+  translation: "ኤርትራ"
 - id: nav_about
   translation: "ብዛዕባ"
 - id: footer_rights
-  translation: "ኒማሃሰን ። ኵሉ መሰላት እተሓዝአ"
+  translation: "ግጥሚታትን ዛንታታትን ብናይ ቋንቋ ሕዝበይ"
 - id: footer_admin
   translation: "ኣመሓዳሪ"
 - id: card_btn
-  translation: "ኣንብብ"
+  translation: "ኣንብብ/ቢ"
 - id: sidebar_created
   translation: "እተፈጥረ"
 - id: sidebar_location
@@ -19,8 +19,8 @@
 - id: sidebar_by
   translation: "ብእተፈጥረ"
 - id: donation_title
-  translation: "ናይ ስራሐይ ደጋፊ...?"
+  translation: "ናይ ስራሕ ድገፍቲ… ፧"
 - id: donation_text
-  translation: "ንዕዮይን ቋንቋ ጢግሪንያን ብምድጋፍ ፍቕርኻ ኣርኢ"
+  translation: "ንማሕበረ-ሰብ ትግርኛ፡  ቋንቋ-ትግርኛ  ብGoogle translate ንኽረኽብዎ ሓግዞም።"
 - id: petition_btn
-  translation: "ጥርዓኖም ምልክት ግበሩ"
+  translation: "ምልክት ጥርዓን"
