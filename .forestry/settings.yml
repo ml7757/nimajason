@@ -22,6 +22,7 @@ sections:
   create: documents
   match: "**/*"
   templates:
+  - static
   - article-english
 - type: directory
   path: content/tigrinya/articles
@@ -29,6 +30,7 @@ sections:
   create: documents
   match: "**/*"
   templates:
+  - static
   - article
 - type: directory
   path: content/english/poems
@@ -36,6 +38,7 @@ sections:
   create: documents
   match: "**/*"
   templates:
+  - static
   - poem-english
 - type: directory
   path: content/tigrinya/poems
@@ -43,6 +46,7 @@ sections:
   create: documents
   match: "**/*"
   templates:
+  - static
   - poem
 - type: directory
   path: content
