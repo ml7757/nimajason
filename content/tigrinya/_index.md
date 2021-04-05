@@ -26,7 +26,7 @@ theme: light
 
 {{< divider >}}
 
-## ዓንቀጻት ኣብ ኤርትራ 
+## ዓንቀጻት ኣብ ኤርትራ
 
 {{< item-list color="#4189DD" type="article" >}}
 
@@ -36,6 +36,6 @@ theme: light
 
 ## ዓንቀጻት ኣብ ኤርትራ
 
-ብዛዕባ ቋንቋ-ትግርኛ ዝያዳ ክትመሃር/ሪ ድልየት እንተ'ሎካ/ኪ፣ ከም'ቲ ኣብ ታሕቲ ዘሎ ኣብነት ዝዀነ ምስሊ-ቪድዮ ብዝተፈላለየ ገጽታ ንቛንቋ ዝሽፍን አዳሉ'የ።
+ብዛዕባ ቋንቋ-ትግርኛ ዝያዳ ክትመሃር/ሪ ድልየት እንተ'ሎካ/ኪ፣ ከም'ቲ ኣብ ታሕቲ ዘሎ ኣብነት ዝዀነ ምስሊ-ቪድዮ {{< target link="[https://www.youtube.com/channel/UCSpOXmKoQdtzjKzcyeabK3A](https://www.youtube.com/channel/UCSpOXmKoQdtzjKzcyeabK3A "https://www.youtube.com/channel/UCSpOXmKoQdtzjKzcyeabK3A")" text="Youtube channel">}} ብዝተፈላለየ ገጽታ ንቛንቋ ዝሽፍን አዳሉ'የ። 
 
 {{< youtube DUy9i3Poq8w >}}
