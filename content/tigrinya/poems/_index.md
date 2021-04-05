@@ -8,4 +8,4 @@ sidebar_title: ናይ ልበይ መግለጺታት
 theme: light
 
 ---
-\[\]: # (This page has a job! Please do not! I exist at /ti/poems)
+\[\]: # (This page has a job! Please do not delete! This page lives at www.nimajason.com/ti/poems)
