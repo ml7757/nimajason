@@ -17,7 +17,7 @@ Profil >"
 
 ## ኣብ'ዚ ኢድካ እትህልወሉ መገድታት
 
-{{< donation  title="ናይ ስራሕ ድገፍቲ… ፧" text="ንዕዮን ቋንቋ-ትግርኛ ብምድጋፍኲም ፍቕሪዂም ኣርእዩኒ።" color="#ffffff" background="heart-yellow_d2afzw.png" >}}
+{{< donation  title="ናይ ስራሕ ደገፍቲ… ፧" text="ንዕዮን ቋንቋ-ትግርኛ ብምድጋፍኲም ፍቕሪዂም ኣርእዩ።" color="#ffffff" background="heart-yellow_d2afzw.png" >}}
 
 {{< petition text="ንማሕበረ-ሰብ ትግርኛ፡  ቋንቋ-ትግርኛ  ብGoogle translate ንኽረኽብዎ ሓግዞም።" >}}
 
