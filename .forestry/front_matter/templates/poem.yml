@@ -61,6 +61,7 @@ fields:
   default: light
   hidden: true
 pages:
+- content/tigrinya/poems/ሕልሚ.md
 - content/tigrinya/poems/ምስሊ.md
 - content/tigrinya/poems/ስፍራ-ኣበሳ.md
 - content/tigrinya/poems/ቓል-ዓለም.md
