@@ -10,21 +10,21 @@ theme: light
 ---
 ሰላም! ኣነ ዓወት እብሃል። ናተይ መደባት ፈተውቲ ዝዀንኲም እንቛዕ ብደሓን መጻእዂም። ኣነ ብግጥሚታተይን ዛንታታተይን ኣቢለ ንቛንቋ-ትግርኛን ሕዝበይን ከምኡ'ውን ንዝዓበኽሉ ሃገረይ-ኤርትራን ዘሎኒ ፍቕሪ ከካፍለኲም እደሊ'የ። በጃዂም!  ተሓጐሱ ደው ብምባልኲም አመስግነኲም።
 
-< Teiler >
+{{< Teiler >}}
 
 ## እዋናዊ ግጥሚታተይ
 
-"< item-list color="#4189DD" type="poem">"
+{{< item-list color="#4189DD" type="poem">}}
 
 {{< btn href="/poems" text="ንዂሉ ርኣዮ/ዪ" color="#4189DD" >}}
 
-< Teiler >
+{{< Teiler >}}
 
 {{< donation  title="ናይ ስራሕ ደገፍቲ… ፧ " text="ንዕዮን ቋንቋ-ትግርኛ ብምድጋፍኲም ፍቕሪዂም ኣርእዩ።" color="#ffffff" background="heart-blue_tjbkge.png" >}}
 
 {{< petition text="ንማሕበረ-ሰብ ትግርኛ፡  ቋንቋ-ትግርኛ  ብGoogle translate ንኽረኽብዎ ሓግዞም።" >}}
 
-< Teiler >
+{{< Teiler >}}
 
 ## ዓንቀጻት ኣብ ኤርትራ
 
@@ -32,10 +32,10 @@ theme: light
 
 {{< btn href="/articles" text="ንዂሉ ርኣዮ/ዪ" color="#4189DD" >}}
 
-< Teiler >
+{{< Teiler >}}
 
 ## ዓንቀጻት ኣብ ኤርትራ
 
 ብዛዕባ ቋንቋ-ትግርኛ ዝያዳ ክትመሃር/ሪ ድልየት እንተ'ሎካ/ኪ፣ ከም'ቲ ኣብ ታሕቲ ዘሎ ኣብነት ዝዀነ ምስሊ-ቪድዮ {{< target link="https://www.youtube.com/channel/UCSpOXmKoQdtzjKzcyeabK3A" text="Youtube channel">}} ብዝተፈላለየ ገጽታ ንቛንቋ ዝሽፍን አዳሉ'የ።
 
-"< youtube 2vu8qWhXMVc >"
+{{< youtube 2vu8qWhXMVc >}}
