@@ -10,7 +10,7 @@ theme: light
 ---
 ሰላም! ኣነ ዓወት እብሃል። ናተይ መደባት ፈተውቲ ዝዀንኲም እንቛዕ ብደሓን መጻእዂም። ኣነ ብግጥሚታተይን ዛንታታተይን ኣቢለ ንቛንቋ-ትግርኛን ሕዝበይን ከምኡ'ውን ንዝዓበኽሉ ሃገረይ-ኤርትራን ዘሎኒ ፍቕሪ ከካፍለኲም እደሊ'የ። በጃዂም!  ተሓጐሱ ደው ብምባልኲም አመስግነኲም።
 
-{{< Teiler >}}
+{{< divider >}}
 
 ## እዋናዊ ግጥሚታተይ
 
@@ -18,13 +18,13 @@ theme: light
 
 {{< btn href="/poems" text="ንዂሉ ርኣዮ/ዪ" color="#4189DD" >}}
 
-{{< Teiler >}}
+{{< divider >}}
 
 {{< donation  title="ናይ ስራሕ ደገፍቲ… ፧ " text="ንዕዮን ቋንቋ-ትግርኛ ብምድጋፍኲም ፍቕሪዂም ኣርእዩ።" color="#ffffff" background="heart-blue_tjbkge.png" >}}
 
 {{< petition text="ንማሕበረ-ሰብ ትግርኛ፡  ቋንቋ-ትግርኛ  ብGoogle translate ንኽረኽብዎ ሓግዞም።" >}}
 
-{{< Teiler >}}
+{{< divider >}}
 
 ## ዓንቀጻት ኣብ ኤርትራ
 
@@ -32,7 +32,7 @@ theme: light
 
 {{< btn href="/articles" text="ንዂሉ ርኣዮ/ዪ" color="#4189DD" >}}
 
-{{< Teiler >}}
+{{< divider >}}
 
 ## ዓንቀጻት ኣብ ኤርትራ
 
