@@ -68,6 +68,7 @@ fields:
   default: light
 pages:
 - content/english/poems/ሕልሚ.md
+- content/english/poems/መሳልል.md
 - content/english/poems/ምስሊ.md
 - content/english/poems/ስፍራ-ኣበሳ.md
 - content/english/poems/ቓል-ዓለም.md
