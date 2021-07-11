@@ -68,6 +68,7 @@ fields:
   default: light
 pages:
 - content/english/poems/....md
+- content/english/poems/....md-1
 - content/english/poems/ልቢ-ዩ-ሕልና.md
 - content/english/poems/ሕልሚ.md
 - content/english/poems/መሳልል.md
