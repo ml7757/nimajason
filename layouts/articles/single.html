@@ -10,5 +10,7 @@
 		<div class="divider"></div>
 
 		{{ partial "donation.html" (dict "color" "#ffffff" "background" "heart-red_xif1ny.png") . }}
+
+		{{ template "_internal/disqus.html" . }}
 	</div>
 {{ end }}

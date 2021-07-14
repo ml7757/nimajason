@@ -15,7 +15,7 @@ Hello. I'm Awet. And welcome to my passion project. Through my poems and stories
 
 {{< item-list color="#4189DD" type="poem">}}
 
-{{< btn href="/poems" text="See all" color="#4189DD" >}}
+{{< btn href="/poems" text="See all" >}}
 
 {{< divider >}}
 
@@ -29,7 +29,7 @@ Hello. I'm Awet. And welcome to my passion project. Through my poems and stories
 
 {{< item-list color="#4189DD" type="article" >}}
 
-{{< btn href="/articles" text="See all" color="#4189DD" >}}
+{{< btn href="/articles" text="See all" >}}
 
 {{< divider >}}
 

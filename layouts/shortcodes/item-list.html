@@ -14,7 +14,7 @@
 			<div class="card__date">{{ .Date.Format .Site.Params.DateForm }}</div>
 			<div class="card__line" style="border-color: {{ $theme }};"></div>
 			<div class="card__btn">
-				<a href="{{ .RelPermalink }}" class="btn" style="border-color: {{ $theme }};">
+				<a href="{{ .RelPermalink }}" class="btn">
 					{{ T "card_btn" }}
 					{{- partial "svgs/chevron_right.html" . -}}
 				</a>
@@ -35,7 +35,7 @@
 				{{ .Summary }}
 			</div>
 			<div class="card__btn">
-				<a href="{{ .RelPermalink }}" class="btn" style="border-color: {{ $theme }};">
+				<a href="{{ .RelPermalink }}" class="btn">
 					{{ T "card_btn" }}
 					{{- partial "svgs/chevron_right.html" . -}}
 				</a>

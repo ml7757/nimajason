@@ -1,6 +1,4 @@
-{{ $color := .Get `color` }}
-<a href="{{ .Get `href` | relLangURL }}" class="btn__sc" style="color: {{ .Get `color` }};">
+<a href="{{ .Get `href` | relLangURL }}" class="btn btn__sc">
 	{{ .Get `text` }}
-	{{ .Scratch.Set "color" $color }}
 	{{- partial "svgs/chevron_right.html" . -}}
 </a>

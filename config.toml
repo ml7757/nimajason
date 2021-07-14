@@ -5,6 +5,7 @@ disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
 summaryLength = 20
 paginate = 5
+disqusShortname = "https-www-nimajason-com"
 
 [params]
 	cloudinary_url = "https://res.cloudinary.com/ml7757/image/upload/nimajason"
