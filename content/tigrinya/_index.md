@@ -16,7 +16,7 @@ theme: light
 
 {{< item-list color="#4189DD" type="poem">}}
 
-{{< btn href="/poems" text="ንዂሉ ርኣዮ/ዪ" color="#4189DD" >}}
+{{< btn href="/poems" text="ንዂሉ ርኣዮ/ዪ" >}}
 
 {{< divider >}}
 
@@ -30,7 +30,7 @@ theme: light
 
 {{< item-list color="#4189DD" type="article" >}}
 
-{{< btn href="/articles" text="ንዂሉ ርኣዮ/ዪ" color="#4189DD" >}}
+{{< btn href="/articles" text="ንዂሉ ርኣዮ/ዪ" >}}
 
 {{< divider >}}
 

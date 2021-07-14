@@ -1,6 +1,7 @@
 .btn {
 	padding: .5rem 1rem;
-	border: 1px solid;
+	border: 1px solid #000;
+	transition: all .2s;
 
 	&:link,
 	&:visited {
@@ -8,14 +9,15 @@
 		color: #000;
 	}
 
+	&:active,
+	&:hover {
+		color: #fff;
+		background-color: #000;
+
+		.btn__svg { fill: #fff; }
+	}
+
 	&__svg { margin-left: 1rem; }
 
-	&__sc {
-		background-color: #f4f4f4;
-		padding: 1.5rem;
-		font-weight: 500;
-
-		&:link,
-		&:visited { text-decoration: none; }
-	}
+	&__sc { display: inline-block; }
 }
