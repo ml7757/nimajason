@@ -15,7 +15,7 @@ layout: about
 
 {{< divider >}}
 
-## ኣብ'ዚ ኢድካ እትህልወሉ መገድታት
+## ኣብ'ዚ ኢድካ እትህልወሉ መንገዲታት
 
 {{< donation  title="ናይ ስራሕ ደገፍቲ… ፧" text="ንዕዮን ቋንቋ-ትግርኛ ብምድጋፍኲም ፍቕሪዂም ኣርእዩ።" color="#ffffff" background="heart-yellow_d2afzw.png" >}}
 
