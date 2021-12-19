@@ -61,8 +61,6 @@ fields:
   default: light
   hidden: true
 pages:
-- content/tigrinya/poems/....md
-- content/tigrinya/poems/....md-1
 - content/tigrinya/poems/ልቢ-ዩ-ሕልና.md
 - content/tigrinya/poems/ሕልሚ.md
 - content/tigrinya/poems/መሳልል.md
